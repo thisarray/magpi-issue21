@@ -1,0 +1,16 @@
+note to the editor: things like (INSERT PICTURE ... HERE) means insert the pictures include in the email
+Magpi Article
+So my desktop's given up the ghost and to be honest I need a new computer unfortunately being thirteen, in year 9 and with an income of £8 a week from a paper round even a low end netbook is out of the question. So I turn to my raspberry pi, "how hard can it be" I thought "to make it portable" how wrong I was. instructions telling me to hack down, bypass regulators and modify. One fried screen and allot of frustration later, I decide that I should design my own version. may I present the Pi Book Air (INSERT PICTURE 1 HERE) , very much a portable pi for the rest of us. its designed to be simple with the only soldering being for a 9v battery connector and one switch.
+what I used
+1x pi model b
+1x sheet of foam board (cardboard would work)
+1x powergen 5v portable phone charger
+1x raspberry pi case
+1x 3" LCD TFT colour monitor
+1x switch (one that stays on)
+1x 9v battery connector
+1x 9v battery (rechargeable is best for value
+1x rii mini keyboard
+sticky back velcro
+tape+double sided tape
+The first thing I did was measure a rectangle of foamboard 20cmx29cm and to cut a handle 2cm from the top. Next I put the R pi in the case and put one side of the sticky back velcro on the case (INSERT PICTURE 2 HERE) and the other on the foamboard just under the handle (INSERT PICTURE 3 HERE). Next I cut one slit just under the raspberry pi and another the width of the screen futher down i then cut two small rectangles of foamboard and put them in the slits and stuck the screen to them using the normal tape (INSERT PICTURE 4&5 HERE). Next I stuck the charger right of the screen with the double sided tape and connect the micro usb cable to the R Pi (INSERT PICTURE 6 HERE) In the picture I used a long wire but the charger came with a shorter cable that I managed to break!. The other side of the screen I left empty but you could put a case for SDs or a usb hub here. In the top right hand corner I put a simple holder for the 9v here (look at the picture) (INSERT PICTURE 7 HERE), for the connector solder the 9v connecter to the power wire for the screen (it should come with two exposed wires) and solder the switch to one of them towards the screen conection end, attach this to the connecter from the screen, sellotape the switch to the side of the screen (INSERT PICTURE 8) push the connector under the screen, attach the connecter to the 9v and tape any hanging wire under the main peice of foamboard. attach the av cable to the pi and to the connector from the screen then push the eccess wires under the screen. then attach the mini keyboard just under the screen with either the double sided tape or sticky back velcro depending if you want to use it for other uses or not (INSERT PICTURE 9 HERE) then attach the bluetooth dongle to the Raspberry Pi's USB slot (INSERT PICTURE 10 HERE). If you want you can add soome fancy gaphics for example I put these (INSERT PICTURE 11 here) on top of my pi. Thanks for reading through my humble artical, I might start selling the Pi book air for around the £60-£70 if you are interested email me using marine.cadet.roberts@gmail.com and you may see them on amazon soon!

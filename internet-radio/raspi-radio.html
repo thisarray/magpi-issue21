@@ -1,0 +1,367 @@
+<HTML>
+
+<HEAD>
+<TITLE>Raspberry Pi Internet Radio</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=white TEXT=black>
+
+<H1 Align=Center>Raspberry Pi Internet Radio</H1>
+<H4 Align=Center>Volker Ziemann, 15-SEP-2013</H4>
+
+A few years ago I hacked an Asus Router to become an 
+<A HREF="http://linuxgazette.net/166/ziemann.html">internet radio</A> by putting
+OpenWRT on it and adding a USB sound card. At that time this setup was the only 
+way I could figure out to make an intelligent box that hooks up to the Internet
+at one end and spit out music at the other. The system, located in our kitchen 
+is still in use, but when we got a new stereo in the living room, it was time to 
+revisit the Internet radio situation. 
+<P>
+Of course, today we have the Raspberry Pi available, which has all the necessary 
+hardware on board, namely an Ethernet port, either wired or wireless, and an
+analog sound output. Having decided on the hardware a little research on the
+web about other people's solutions to the same problem resulted in the following
+strategy for the software.
+<UL>
+  <LI> Use the music player daemon <TT>mpd</TT> for sound
+  <LI> Control it via the associated controller software <TT>mpc</TT>
+  <LI> Use <TT>apache2</TT> to serve a web interface with forms and cgi-bin 
+       functionality to select radio channels from the playlist
+  <LI> Display what is currently playing
+  <LI> The ability to shut down the raspi gracefully via the web interface, which 
+       proved a bit tricky, but more on that below.
+</UL>
+There is no hardware work involved in this approach, only some programming, but in
+the end I had a system that I can control from any computer with web access to the
+raspi, including cell phones or tablets. If you like the hardware solutions, just
+browse the web. There are some <A HREF="http://www.youtube.com/watch?v=KM4n2OtwGl0">
+really cool projects</A> out there.
+<P>
+For the software approach I use the standard current Debian Wheezy distribution and 
+assume that you have your raspi connected to the Internet, either by cable or WLAN.
+Wired ethernet normally works out of the box if you have a DHCP server on your network,
+most routers do that by default. If you use WLAN probaly the easiest way is to start 
+the X-window interface by executing <TT>startx</TT> on the command line and run the 
+WIFI setup that you can find on the desktop. Once your hooked up to your network you 
+need to find out the IP number of the raspi. Just run
+<PRE>
+        ifconfig
+</PRE> 
+which will display the settings for each network adapter. Find a line that starts
+with <TT> inet addr:</TT> and the four numbers following that look like 192.168.1.102
+is the IP number of the raspi. You will need that later when controlling the radio
+from your cell phone. Your actual IP number will likely be different from the one shown 
+above. If you are connected by wire and WLAN, you will have two interfaces eth0 and 
+wlan0. The IP number of either network interface will work for the internet radio.
+<P>
+OK, now we proceed by installing the required packages by opening a terminal window
+and typing
+<PRE>
+        sudo apt-get update
+        sudo apt-get install mpd mpc apache2
+</PRE>
+Having the required software installed it is time to test the basic functionality.
+The <TT>mpd</TT> program is a daemon, that runs in the background and is started
+automatically at boot time. We interact with the daemon by the <TT>mpc</TT> program.
+For good measure I suggest to reboot the system, even though that's not strictly
+necessary. When the system is turned off it is a good time to connect the raspi to
+some active loudspeakers with built in amplifier. Or, if you dare, connect it to 
+some input of your stereo amplifier. For this you might need a cable that has a
+3.5 mm connector that is attached to the raspi and RCA connectors that are attached
+to the amplifier.
+<P>
+In order to play the radio stations we need to inform the raspi about the channels.
+For this I prepared a small text file that contains the Internet addresses of the radio 
+stations I want to listen to, one station per line with URL and port number, separated
+by a colon. A simple sample file looks like this
+<PRE>
+        http://108.61.73.118:8030
+        http://109.123.116.202:8022
+</PRE>
+and call that file <TT>pls.txt</TT>. The actual name does not matter, just pick any
+one you prefer. We can now tell <TT>mpd</TT> about our playlist by typing
+<PRE>
+        cat pls.txt | mpc add
+</PRE>
+and check that it swallowed it by
+<PRE>
+        mpc playlist
+</PRE>
+which should return contents of the file, the list of stations by their URL. Now it is
+time to start making noise, which is done by the command
+<PRE>
+        mpc play 1
+</PRE> 
+to play the
+first station in the playlist and <TT>mpc play 2</TT> to play the second. If your list is 
+longer by having more lines with channels in the <TT>pls.txt</TT> file, I am sure you'll 
+figure out how to address them. Normally the play command connects to the radio station rather
+quickly in less than a second or two and should result in some music. The two channels above
+have been stable for a long time and are a classic rock station, playing Led Zeppelin and
+Queen, and the second station playing classical classical music, like Beethoven and Mozart.
+The command
+<PRE>
+       mpc stop
+</PRE> 
+stops playing the music and
+<PRE>
+       mpc current
+</PRE>
+tells you, what is currently playing. These are just the basic functions, for more just
+check the manual page for <TT>mpc.</TT> 
+<P>
+As a matter of fact you can find a long list of Internet radio stations at the following
+URLs
+<PRE>
+       http://www.listenlive.eu
+       http://www.internet-radio.com
+       http://www.radio-locator.com
+</PRE>
+Check it out and add your favorites to the playlist file <TT>pls.txt</TT>.
+<P>
+At this point you can take a shortcut and install for example the app <TT>mpdroid</TT> 
+on your smart-phone and remotely control the <TT>mpd</TT> daemon on your raspi. You'd get
+some functionality, but miss out on the fun of learning a bit of HTML and CGI-BIN
+controls of your raspi. 
+<P>
+<H3>HTML</H3>
+<P>
+At this point the basic audio functionality is established and we need to add the
+control interface, which is provided by the <TT>apache2</TT> server. I assume that
+you know the IP number of your raspi, that you have determined before. On any
+computer, on your local net, including the raspi itself, fire up a browser and
+add the IP of your raspi to the address line. You should receive a message that says
+<PRE>
+          It works!
+          This is the default web ....
+</PRE>
+which means that your apache2 web server is running, which it should do automatically
+after installing it, which is what you should have done, if you followed the instructions.
+<P>
+The web server basically dishes out web pages which are located on the raspi. The page
+you were just shown is actually a file named <TT>index.html</TT> that resides in the
+directory <TT>/var/www/</TT> by default. You can change that location by fiddling with
+the apache2 configuration files, but I assume you use, as I do, the default configuration
+that came with the installation.
+<BR>
+<BR>    
+What we have to do is to replace the index.html file with another one that provides 
+the Internet radio interface. Here is a screen-shot of what I ended up with
+<P>
+<IMG SRC="screenshot1.png" ALIGN=CENTER WIDTH="850" ALT="Screenshot">
+<P>
+On the left hand side there is a red area with several useful links like the different
+Internet radios scattered in my household, links to the Swedish TV program, links to 
+sites with Internet radio stations, and some more useful things. On the right hand side 
+in the upper half of the screen there is the radio interface with buttons for playing
+and stopping and below that there are twelve buttons for the radio stations in the
+playlist file pls.txt, mine has twelve entries, obviously. The three buttons in the
+bottom row are kind of self-explanatory. Finally, below the buttons is a status area,
+where the information from the button presses is displayed. In the above example I
+pressed the "Available Stations" button and the twelve links are displayed. Above that
+the hostname of the raspi "Wohnzimmer" and its IP number is displayed. I found that
+useful for debugging.
+<P>
+Having described the interface, we now turn to the implementation. To set up the main
+window divided up into three parts, the left red sidebar, the button interface and 
+the status display, I use html framesets. The index.html file that replaces the
+default one in <TT>/var/www</TT> looks like this
+<P>
+<IMG SRC="index_html.png" ALIGN="CENTER">
+<P>
+where the head contains just the title information.
+Then there are two nested framesets, the first contains a frame with a file named
+<TT>indexlist.html</TT> which contains the stuff in the red sidebar. and the second 
+frameset with two frames, one for the radio interface, <TT>radio.html</TT> and one for 
+the status page, <TT>status.html</TT>. The frameset instructions contain specifications
+of the subdivision of the page. The first subdivides the page into two parts, where the 
+red sidebar will be 170 pixels wide and the rest is given to the second frameset. The
+second frameset instruction vertically (rows=) splits its allocated space evenly between the
+two frames with the radio and the status. Note that the frames have names, which
+we will later need to direct output to the proper places.
+<P>
+The file <TT>indexlist.html</TT> that describes the stuff in the red sidebar on the
+left is shown here
+<P>
+<IMG SRC="indexlist.png" ALIGN="CENTER">
+<P>
+We see the usual header and body directives, here actually the red background is defined.
+Then there is just a list of html anchors with the links to the respective web pages.
+Note, however that the anchors have a target directive, which directs the called web
+page either to a  new window with <TT>target=blank</TT> or to a named frame, here with
+<TT>target=main</TT> to the radio area. This feature we will later use to direct output
+to the status section of the page.
+<P>
+The status page is rather trivial. It just contains the opening and closing html and body 
+directives and some dummy text. This will be overwritten dynamically later.
+<P>
+<H3>CGI-BIN</H3>
+<P>
+The file <TT>radio.html</TT> contains all the fun interactive stuff. Here the interaction with the
+raspi actually takes place. After the normal HTML, HEAD and BODY stuff and a header the
+interface is built as a horizontal table sandwiched between TR and /TR tags. Each entry 
+in the table is declared between the TD and /TD tags. Inbetween these tags a FORM is
+defined that executes and action on the raspi as defined by the instruction
+<TT>action="cgi-bin/play.sh"</TT>, uses the POST method and directs the output of
+whatever the <TT>play.sh</TT> script produces to the status window. The trigger to 
+execute the form we define a button through the INPUT tag which displays "Play"
+and submits the request to execute the <TT>play.sh</TT> script on the server.
+See the excerpt from the <TT>radio.html</TT> file below.
+<P>
+<IMG SRC="radio.png" ALIGN="CENTER">
+<P>
+The stanza with between the TR tags is repeated four times to produce four rows of 
+buttons and inbetween there are four blocks with the TD tags and the enclosed form.
+Observe, that I supply an argument to the <TT>play.sh</TT> script by appending
+a question mark and a number. 
+<P>
+You may wonder what these scripts are and where they reside on the raspi. When the
+<TT>apache2</TT> server is installed, a directory <TT>/usr/lib/cgi-bin</TT> is automatically
+created and you just put the the scripts in there. Note that you need sudo permission to 
+put files there.
+<P>
+Let's start with the <TT>stop.sh</TT> script, because it is one of the simplest. Here
+is the contents of the file <TT>/usr/lib/cgi-bin/stop.sh</TT>
+<PRE>
+    #!/bin/bash
+
+    echo 'Content-type: text/plain'
+    echo
+    echo
+
+    /usr/bin/mpc stop 
+    echo "Radio stopped..."
+</PRE>
+Here the first line with <TT>#!/bin/bash</TT> tells the operating system that the
+contents of this file should be treated as a sequence of <TT>bash</TT> commands,
+where <TT>bash</TT> is a common shell, or command interpreter, of unixoids. 
+The empty lines in the file are just for structuring and to 'guide the eye.'
+Then, the three lines with <TT>echo</TT> print the 'Content-type' stuff and two
+empty lines to standard output. The setup with the forms in the html cause
+the output to be piped to the status section of our web page and the html
+interpreter of the browser that receives that information is instructed by the
+lines that there is just plain text following and therefore the browser as an
+idea of how to format it. The line with <TT>/usr/bin/mpc stop</TT> executes
+the <TT>mpc stop</TT> command on the raspi and whatever output it generates ends
+up in the status window. For good measure the last echo command writes 'Radio
+stopped...' to the status window. Just to  be sure.
+<P>
+Finally we need to make the file executable
+<PRE>
+        sudo chmod +x /usr/lib/cgi-bin/stop.sh
+</PRE>
+which suitably changes file permissions by adding the execute bit with 'chmod +x'.
+<P>
+Just to summarize how the html on the raspi's web page, with forms and 
+cgi-bin, cooperate, here's the short version: By pressing the 
+'Stop' button on the web page the browser instructs the raspi to execute the
+script <TT>stop.sh</TT> and pipe the output to the status window. The idea
+is quite straightforward, though some of the syntax needs a bit of getting
+used to.
+<P>
+The script files for 'Next', 'Previous' and the buttons in the bottom row all
+work in the same fashion. First there's the <TT>#!/bin/bash</TT> line followed by
+the 'Content' stuff with the three echos. Then there are just whatever commands
+are suitably executed with their output piped to the status window. The only
+exception is the play command, because I intend to send arguments from the
+browser to it. You can see from the example above that I pass the station number
+from the playlist in the FORM construct with <TT>action="cgi-bin/play.sh?1</TT>
+after the question mark. So, how do we recover the string '1' when executing
+the file <TT>play.sh</TT>? The form construct with cgi-bin actually makes the
+stuff that follows the question mark available within the executing script in 
+the environment variable <TT>${QUERY_STRING}.</TT> Check out my <TT>play.sh</TT>
+file here
+<PRE>
+    #!/bin/bash
+    echo 'Content-type: text/plain'
+    echo
+    echo
+    if [ -z ${QUERY_STRING} ]; then
+       /usr/bin/mpc play 
+    else
+       /usr/bin/mpc play "${QUERY_STRING}"
+    fi
+</PRE>
+It contains the normal <TT>#!/bin/bash</TT> and echo things and then it test
+for the existence of the <TT>$QUERY_STRING</TT> with the line 
+<TT>if [ -z ${QUERY_STRING} ]; then</TT> and, depending whether it exists or not 
+executes the <TT>mpc play</TT> command with or without the argument. Don't ask me, 
+why it is called <TT>$QUERY_STRING</TT>! I am as puzzled as you are.
+<P>
+A warning!
+Please note that I do not check the QUERY_STRING for illegal characters. A malicious
+user could badly hack you system in this way. I use my raspi behind a router on a 
+subnet only accessible by friendly users. Do not, again, absolutely do not put the
+system on an unprotected network. That being said I had some basic protection in the 
+old router based system, check <A HREF="http://linuxgazette.net/166/ziemann.html">there</A>
+for the decode code.
+<P>
+<H3>Killerqueen</H3>
+<P>
+So far we have the basic functionality to control the <TT>mpd</TT> daemon via the
+<TT>mpc</TT> program available via the web interface. It remains to turn the raspi
+off using the web interface and that proved to be a bit tricky. Just pulling the 
+power cable also works, albeit at the risk of corrupting the file system and it's
+not really graceful, isn't it? So I wanted a button on the web interface to shut
+the raspi down. My initial attempts directly call the shutdown command via cgi-bin 
+did not work and I resorted to a trick. From the web interface I just create an
+empty file in the <TT>/tmp</TT> directory called <TT>killerqueen</TT> (remember that
+Queen song?). In the background I need another program the runs with the highest
+permissions and that periodically checks the existence of the <TT>/tmp/killerqueen</TT> 
+file and calls shutdown if it exists. 
+<P>
+Here is the <TT>shutdown.sh</TT> script that creates the <TT>/tmp/killerqueen</TT> 
+file if the button on the web interface is pressed
+<PRE>
+    #!/bin/bash
+    echo 'Content-type: text/plain'
+    echo
+    echo
+    touch /tmp/killerqueen
+    echo 'Shutting down... and creating /tmp/killerqueen'
+</PRE>
+and the file that periodically checks its existence every two seconds is called
+<TT>killerqueen.sh</TT> which I placed in the <TT>/usr/local/bin</TT> directory.
+It contains the following lines
+<PRE>
+    #!/bin/bash
+    rm -f /tmp/killerqueen
+    while [ True ]; do
+        if [ -e /tmp/killerqueen ]; then
+            echo 'file exists, removing'
+            rm -f /tmp/killerqueen
+            /sbin/shutdown -h now
+        fi
+        sleep 2
+    done
+</PRE>
+After initially removing a forgotten /tmp/killerqueen file it enters an infinite loop
+and checks the existence of the file. If it exists it removes the file and calls 
+shutdown. Then the raspi comes to a halt and after a few seconds you can turn the power
+off safely.
+<P>
+What remains is to start the <TT>killerqueen.sh</TT> script auto-magically and that is
+most easily done by placing the line 
+<PRE>
+        /usr/local/bin/killerqueen.sh &
+</PRE>
+in the file <TT>/etc/init.d/rc.local</TT> which is executed at boot time automatically
+and starts the killer queen to watch over the raspi. Note again, that anyone with access to
+the web page of your raspi can turn it off. Make sure it is behind a router.
+<P>
+We've come quite a way in the process of turning the raspi into an Internet radio. On the way
+we covered the <TT>mpd/mpc</TT> combo and setting up a web server together with creating
+simple forms with framesets and interacting with the raspi via cgi-bin scripts. Please be
+aware that this is absolutely not the only way to achieve the functionality, but for me it
+was fun and instructive. 
+<P>
+By the way, you can download a tar ball with all the files 
+<A HREF="raspiradio.tar.gz">here.</A> 
+<P>
+Finally a disclaimer. Please note that I describe everything to the best of my knowledge, but 
+I cannot guarantee that it also works for you. Be careful and if you accidentally fry your cat 
+by following my description, it is your (and your cats) problem.
+</BODY>
+</HTML>
+
+

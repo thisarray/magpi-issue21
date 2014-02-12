@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="8" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="3" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -30,9 +30,9 @@
         <COLOR NAME="pale python green" RGB="#e7ebad" Spot="0" Register="0"/>
         <COLOR NAME="python green" RGB="#8c7529" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
-        <STYLE NAME="Body text" ALIGN="3" LINESP="13" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="Body text" ALIGN="3" LINESP="15" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body title" LINESP="16" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="11" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
@@ -42,7 +42,7 @@
         <STYLE NAME="Copy of Body text (2)" ALIGN="3" LANGUAGE="English"/>
         <STYLE NAME="Copy of Body title (2)" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Copy of Code (2)" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -58,7 +58,7 @@
         <LAYERS NUMMER="12" LEVEL="13" NAME="Images" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff7625"/>
         <LAYERS NUMMER="13" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ad8bff"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="0" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
             <Subset Name="Monaco Regular"/>
@@ -141,7 +141,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="113.121593368391" YPOS="307.857913385827" WIDTH="236.417952755906" HEIGHT="16.7244094488189" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1.04567289830735" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="15" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 236.418 0 236.418 0 236.418 0 236.418 0 236.418 16.7244 236.418 16.7244 236.418 16.7244 236.418 16.7244 0 16.7244 0 16.7244 0 16.7244 0 16.7244 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="12.4007818281801" gYpos="9.48980314960596" gWidth="289.12478516815" gHeight="35.704" ALIGN="1" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : INTERMEDIATE"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="15" FCOLOR="White" CH="SKILL LEVEL : BEGINNER"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -157,7 +157,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.07" LOCALSCY="0.07" LOCALX="-80.9898762654668" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../magpi-templates/mp-team/whbell.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.153612" LOCALSCY="0.153612" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="MartinHodgson.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -192,297 +192,323 @@
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="359.080708665355" WIDTH="538.588346456693" HEIGHT="446.419291334645" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="41" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614174" YPOS="359.080708665355" WIDTH="538.588346456693" HEIGHT="446.419291334645" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 446.419 538.588 446.419 538.588 446.419 538.588 446.419 0 446.419 0 446.419 0 446.419 0 446.419 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="40" BACKITEM="-1">
             <ITEXT CH="Introduction"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In the early 1980s, as early home computers boomed in popularity, a little programming knowledge was essential. My first machine was a Sinclair ZX81 with 1K of memory (I used to dream of being able to afford a 16K RAM expansion!). To make the ZX81 do anything at all you had to know a few BASIC commands, and the computer’s manual included a good introduction to BASIC programming. For those interested in more advanced programming, magazines like ZX Computing and Creative Computing included listings of BASIC programs – mostly games, which could be typed in, played, saved and hacked to your heart’s content. It was great fun and a fantastic way to learn how to program."/>
+            <ITEXT CH="In the early 1980s, as early home computers boomed in popularity, a little programming knowledge was essential.  My first computer was a Sinclair ZX81 with 1KByte of memory.  (I used to dream of being able to afford a 16K RAM expansion!)  To make the ZX81 do anything at all, you had to know a few BASIC commands.  Thankfully, the computer’s manual included a good introduction to BASIC programming.  For those interested in more advanced programming, magazines like ZX Computing and Creative Computing included listings of BASIC programs.  These were mostly games that could be typed in, played, saved and hacked to your heart’s content.  It was great fun and a fantastic way to learn how to program."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The late Tim Hartnell was a prolific author of BASIC games and published many articles and over 30 books during the early ‘80s. Second-hand copies of his books are still readily available online and a few PDFs can be found on vintage computer fan websites. "/>
+            <ITEXT CH="During the early '80s, the late Tim Hartnell was a prolific author of BASIC games and published many articles and over 30 books.  Second-hand copies of his books are still readily available online and a few PDFs can be found on vintage computer fan websites. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The program"/>
+            <ITEXT CH="Stronghold of the Dwarven Lords"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Stronghold of The Dwarven Lords is a simple adventure game, from the 1984 book Tim Hartnell’s Giant Book of Computer Games. In my Python translation I try to stick as closely as possible to Tim’s original BASIC version. To get going open the Python IDLE 3 Shell, then hit Ctrl+N  to open a new window. I suggest typing the program in manually (just like we would have done 30 years ago) and trying to work out how it works as you go. Don’t type in the line numbers – they are included to make the listing easier to navigate."/>
+            <ITEXT CH="Stronghold of The Dwarven Lords is a simple adventure game, from the 1984 book Tim Hartnell’s Giant Book of Computer Games.  In my Python translation I try to stick as closely as possible to Tim’s original BASIC version.  The Python that follows is written in Python3.  Start by opening the Python IDLE3 Shell.  Then type Ctrl+N,  to open a new window. I suggest typing the program in manually, (just like we would have done 30 years ago), and trying to work out how it works as you go."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="9" CH="# STRONGHOLD OF THE DWARVEN LORDS v2.1 "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="9" CH=" # STRONGHOLD OF THE DWARVEN LORDS v2.1 "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# Martin Hodgson - November 2013 "/>
+            <ITEXT FONTSIZE="9" CH=" # Martin Hodgson - November 2013 "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# Translated from Tim Hartnell's original BASIC version... "/>
+            <ITEXT FONTSIZE="9" CH=" # Translated from Tim Hartnell's original BASIC version... "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# ...with a couple of updates. Now you can't walk through walls! "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="import random "/>
+            <ITEXT FONTSIZE="9" CH=" # ...with a couple of updates. Now you can't walk through walls! "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# VARIABLES, LISTS "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data1 = [2,2,2,3,2,4,2,5,2,6,2,7] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data2 = [3,7,4,7,5,7,5,6,5,5,5,4,5,3,6,3] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data3 = [7,3,7,4,7,5,7,6,7,7,7,8,7,9,9,8] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data4 = [9,9,10,8,10,7,10,6,10,5,10,4,8,8] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data5 = [10,3,11,3,12,3,13,3,14,3,14,2,7,10] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data6 = [6,10,5,10,4,10,3,10,2,10,2,11,2,12] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data7 = [2,13,2,14,6,11,6,12,6,13,6,14,7,12] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data8 = [14,12,8,12,8,14,9,12,9,13,9,14,10,12] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data9 = [11,9,11,10,11,11,11,12,12,9,13,9,13,10] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data10 = [13,11,13,12,13,13,13,14,14,14] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="data = data1 + data2 + data3 + data4 + data5 + data6 + data7 + data8 + data9 + data10 "/>
+            <ITEXT FONTSIZE="9" CH=" import random "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# FUNCTIONS "/>
+            <ITEXT FONTSIZE="9" CH=" # VARIABLES, LISTS "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def new_game(): # GOSUB 640 in original BASIC version "/>
+            <ITEXT FONTSIZE="9" CH=" data1 = [2,2,2,3,2,4,2,5,2,6,2,7] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    global a, b, z, y, x, s, m, a, e, d "/>
+            <ITEXT FONTSIZE="9" CH=" data2 = [3,7,4,7,5,7,5,6,5,5,5,4,5,3,6,3] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;================================================================\n&quot;) "/>
+            <ITEXT FONTSIZE="9" CH=" data3 = [7,3,7,4,7,5,7,6,7,7,7,8,7,9,9,8] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    input (&quot;STRONGHOLD OF THE DWARVEN LORDS\nNew Game - Press Enter...&quot;) "/>
+            <ITEXT FONTSIZE="9" CH=" data4 = [9,9,10,8,10,7,10,6,10,5,10,4,8,8] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # Item zero and the zero at the beginning of each sub-list will be ignored... "/>
+            <ITEXT FONTSIZE="9" CH=" data5 = [10,3,11,3,12,3,13,3,14,3,14,2,7,10] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # ... as the BASIC program uses indices 1-15 "/>
+            <ITEXT FONTSIZE="9" CH=" data6 = [6,10,5,10,4,10,3,10,2,10,2,11,2,12] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    a = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0]] "/>
+            <ITEXT FONTSIZE="9" CH=" data7 = [2,13,2,14,6,11,6,12,6,13,6,14,7,12] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    b = random.randint(1, 3) "/>
+            <ITEXT FONTSIZE="9" CH=" data8 = [14,12,8,12,8,14,9,12,9,13,9,14,10,12] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    z, y = 14, 14"/>
+            <ITEXT FONTSIZE="9" CH=" data9 = [11,9,11,10,11,11,11,12,12,9,13,9,13,10] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if b == 2: "/>
+            <ITEXT FONTSIZE="9" CH=" data10 = [13,11,13,12,13,13,13,14,14,14] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        y = 2"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if b == 3: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        z = 2"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    x, s = 1, 2"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    for b in (range(1, 16)): "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        for c in (range(1, 16)): "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            a[b].append(x) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if random.randint(1, 10) &gt; 8: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                a[b][c] = s "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if c&lt;2 or c&gt;14 or b&lt;2 or b&gt;14: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                a[b][c] = x "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    d, e = 2, 2"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    for f in (range(0, 136, 2)): "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        b = data[f] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        c = data[f+1] "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        a[b][c] = s "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    a[z][y] = s # Makes sure the gold isn't in a wall "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    m = -15"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    return"/>
+            <ITEXT FONTSIZE="9" CH=" data = data1 + data2 + data3 + data4 + data5 + data6 + data7 + data8 + data9 + data10 "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def show_map(): # GOSUB 480 'help' in original BASIC version "/>
+            <ITEXT FONTSIZE="9" CH=" # FUNCTIONS "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    global b, m "/>
+            <ITEXT FONTSIZE="9" CH=" def new_game(): # GOSUB 640 in original BASIC version "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;\n================================================================\n&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   global a, b, z, y, x, s, m, a, e, d "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;North&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;================================================================\n&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    b = 15"/>
+            <ITEXT FONTSIZE="9" CH="   input (&quot;STRONGHOLD OF THE DWARVEN LORDS\nNew Game - Press Enter...&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    while b &gt; 0: "/>
+            <ITEXT FONTSIZE="9" CH="   # Item zero and the zero at the beginning of each sub-list will be ignored... "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        strng = &quot;&quot; "/>
+            <ITEXT FONTSIZE="9" CH="   # ... as the BASIC program uses indices 1-15 "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        for c in (range(1, 16)): "/>
+            <ITEXT FONTSIZE="9" CH="   a = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0]] "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            if a[b][c] == x: "/>
+            <ITEXT FONTSIZE="9" CH="   b = random.randint(1, 3) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                strng += (&quot;#&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   z, y = 14, 14"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            elif b == d and c == e: "/>
+            <ITEXT FONTSIZE="9" CH="   if b == 2: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                strng += &quot;*&quot;"/>
+            <ITEXT FONTSIZE="9" CH="     y = 2"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            elif a[b][c] == s: "/>
+            <ITEXT FONTSIZE="9" CH="   if b == 3: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="                strng += &quot; &quot;"/>
+            <ITEXT FONTSIZE="9" CH="     z = 2"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print (strng) "/>
+            <ITEXT FONTSIZE="9" CH="   x, s = 1, 2"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        b -= 1"/>
+            <ITEXT FONTSIZE="9" CH="   for b in (range(1, 16)): "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;South&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="     for c in (range(1, 16)): "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    m += 15"/>
+            <ITEXT FONTSIZE="9" CH="       a[b].append(x) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    a[d][e] = s "/>
+            <ITEXT FONTSIZE="9" CH="       if random.randint(1, 10) &gt; 8: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # Here I've omitted two lines from the BASIC version: "/>
+            <ITEXT FONTSIZE="9" CH="         a[b][c] = s "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # 600 FOR J = 1 TO 2000:NEXT J - Makes the prgram pause. "/>
+            <ITEXT FONTSIZE="9" CH="       if c&lt;2 or c&gt;14 or b&lt;2 or b&gt;14: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # 610 CLS - Clear screen. Not possible in Python Shell? "/>
+            <ITEXT FONTSIZE="9" CH="         a[b][c] = x "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   d, e = 2, 2"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   for f in (range(0, 136, 2)): "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     b = data[f] "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     c = data[f+1] "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     a[b][c] = s "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   a[z][y] = s # Makes sure the gold isn't in a wall "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   m = -15"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   return"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def move(): # Lines 50 to 410 - Main game script from BASIC version "/>
+            <ITEXT FONTSIZE="9" CH=" def show_map(): # GOSUB 480 'help' in original BASIC version "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    global m, d, e "/>
+            <ITEXT FONTSIZE="9" CH="   global b, m "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    m += 1"/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;\n================================================================\n&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;\n================================================================\n&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;North&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;STEP NUMBER&quot;, m) "/>
+            <ITEXT FONTSIZE="9" CH="   b = 15"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a[d+1][e] == s: "/>
+            <ITEXT FONTSIZE="9" CH="   while b &gt; 0: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print (&quot;NORTH: OPEN&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="     strng = &quot;&quot; "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a[d+1][e] == x: "/>
+            <ITEXT FONTSIZE="9" CH="     for c in (range(1, 16)): "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print(&quot;NORTH: WALL&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="       if a[b][c] == x: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a[d-1][e] == s: "/>
+            <ITEXT FONTSIZE="9" CH="         strng += (&quot;#&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print (&quot;SOUTH: OPEN&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="       elif b == d and c == e: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a[d-1][e] == x: "/>
+            <ITEXT FONTSIZE="9" CH="         strng += &quot;*&quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print(&quot;SOUTH: WALL&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="       elif a[b][c] == s: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a[d][e+1] == s: "/>
+            <ITEXT FONTSIZE="9" CH="         strng += &quot; &quot;"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print (&quot;EAST: OPEN&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="     print (strng) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a[d][e+1] == x: "/>
+            <ITEXT FONTSIZE="9" CH="     b -= 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print(&quot;EAST: WALL&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;South&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a[d][e-1] == s: "/>
+            <ITEXT FONTSIZE="9" CH="   m += 15"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print (&quot;WEST: OPEN&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   a[d][e] = s "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a[d][e-1] == x: "/>
+            <ITEXT FONTSIZE="9" CH="   # Here I've omitted two lines from the BASIC version: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print(&quot;WEST: WALL&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   # 600 FOR J = 1 TO 2000:NEXT J - Makes the prgram pause. "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;THE DWARVEN SOURCE BEAM READS:&quot;, (100 * abs(z-d) + 10 * abs(y-e))) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;Which direction do you want to move...&quot;) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    a_string = input (&quot;N - north, S - south, E - east, W - west, H - help ? &quot;) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a_string == &quot;H&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        show_map() "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a_string == &quot;N&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        d += 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a_string == &quot;S&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        d -= 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a_string == &quot;E&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        e += 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    elif a_string == &quot;W&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        e -= 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if z == d and y == e: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        win() "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    if a[d][e] == x: # In the original you could walk through walls... Now you can't!"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        print(&quot;\nOuch! You just walked into a wall...&quot;) "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        if a_string == &quot;N&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            d -= 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif a_string == &quot;S&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            d += 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif a_string == &quot;E&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            e -= 1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="        elif a_string == &quot;W&quot;: "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="            e += 1 "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    move() "/>
+            <ITEXT FONTSIZE="9" CH="   # 610 CLS - Clear screen. Not possible in Python Shell? "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="def win(): "/>
+            <ITEXT FONTSIZE="9" CH=" def move(): # Lines 50 to 410 - Main game script from BASIC version "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    print (&quot;\nYou found the Dwarven riches in just&quot;, m, &quot;steps!\n&quot;) "/>
+            <ITEXT FONTSIZE="9" CH="   global m, d, e "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    show_map() "/>
+            <ITEXT FONTSIZE="9" CH="   m += 1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    # This feature has been added - The original version would just END. "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;\n================================================================\n&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    new_game() "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;STEP NUMBER&quot;, m) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    show_map() "/>
+            <ITEXT FONTSIZE="9" CH="   if a[d+1][e] == s: "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="    move() "/>
+            <ITEXT FONTSIZE="9" CH="     print (&quot;NORTH: OPEN&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a[d+1][e] == x: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print(&quot;NORTH: WALL&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if a[d-1][e] == s: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print (&quot;SOUTH: OPEN&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a[d-1][e] == x: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print(&quot;SOUTH: WALL&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if a[d][e+1] == s: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print (&quot;EAST: OPEN&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a[d][e+1] == x: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print(&quot;EAST: WALL&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if a[d][e-1] == s: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print (&quot;WEST: OPEN&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a[d][e-1] == x: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print(&quot;WEST: WALL&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;THE DWARVEN SOURCE BEAM READS:&quot;, (100 * abs(z-d) + 10 * abs(y-e))) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;Which direction do you want to move...&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   a_string = input (&quot;N - north, S - south, E - east, W - west, H - help ? &quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if a_string == &quot;H&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     show_map() "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a_string == &quot;N&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     d += 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a_string == &quot;S&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     d -= 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a_string == &quot;E&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     e += 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   elif a_string == &quot;W&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     e -= 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if z == d and y == e: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     win() "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   if a[d][e] == x: # In the original you could walk through walls... Now you can't!"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     print(&quot;\nOuch! You just walked into a wall...&quot;) "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     if a_string == &quot;N&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="       d -= 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     elif a_string == &quot;S&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="       d += 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     elif a_string == &quot;E&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="       e -= 1"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="     elif a_string == &quot;W&quot;: "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="       e += 1 "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   move() "/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="9" CH="  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="# MAIN PROGRAM "/>
+            <ITEXT FONTSIZE="9" CH=" def win(): "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="new_game() "/>
+            <ITEXT FONTSIZE="9" CH="   print (&quot;\nYou found the Dwarven riches in just&quot;, m, &quot;steps!\n&quot;) "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="show_map() "/>
+            <ITEXT FONTSIZE="9" CH="   show_map() "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="move()"/>
+            <ITEXT FONTSIZE="9" CH="   # This feature has been added - The original version would just END. "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   new_game() "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   show_map() "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="   move() "/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH="  "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" # MAIN PROGRAM "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" new_game()"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" show_map() "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="9" CH=" move()"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="How to play"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="First, read the following introduction by Tim Hartnell , whose prose revealed his great enthusiasm for game programming…"/>
+            <ITEXT CH="First, read the following introduction by Tim Hartnell, whose prose revealed his great enthusiasm for game programming…"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When the game starts you are shown a map of the cavern system with your position indicated as an asterisk *. Your aim is to find the hidden gold with the minimum number of steps. Each turn you are given a brief description of your surroundings and must choose the direction to take next. Once the map scrolls off the screen you are only allowed to look at it again by choosing H for help. However, each time you ask for help you are penalised 15 steps."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="When the game starts you are shown a map of the cavern system with your position indicated as an asterisk "/>
+            <ITEXT FONT="Monaco Regular" CH="*"/>
+            <ITEXT CH=". Your aim is to find the hidden gold with the minimum number of steps.  Each turn you are given a brief description of your surroundings and must choose the direction to take next.  Once the map scrolls off the screen you are only allowed to look at it again by choosing "/>
+            <ITEXT FONT="Monaco Regular" CH="H"/>
+            <ITEXT CH=" for help. However, each time you ask for help you are penalised 15 steps."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="How the program works"/>
@@ -490,14 +516,26 @@
             <para PARENT="Body text"/>
             <ITEXT CH="For those with a basic understanding of Python, you’ll see that the main parts of the program are structured as follows:"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• Line 8 – A few lists of numbers that are all added together on line 19 to make one big list."/>
+            <ITEXT CH="• At the beginning there are a few "/>
+            <ITEXT FONT="Monaco Regular" CH="data"/>
+            <ITEXT CH=" lists of numbers that are combined together to make one big list."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• Line 21 - Functions: new_game, show_map, move and win"/>
+            <ITEXT CH="• There are the functions: "/>
+            <ITEXT FONT="Monaco Regular" CH="new_game()"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="show_map()"/>
+            <ITEXT CH=", "/>
+            <ITEXT FONT="Monaco Regular" CH="move()"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" CH="win()"/>
+            <ITEXT FONT="FreeSans Regular" CH="."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="• Line 132 -  Main program – calls the functions in order to initiate the first game"/>
+            <ITEXT CH="• Then finally there is the main program, which calls the functions in order to initiate the first game."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Tim’s original variable names aren’t very descriptive. For me this added to the fun of working out how the program works. My code only uses basic Python constructs. The new_game function is probably the most complicated part of the program; it creates a list of 15 x 15-item ‘sub-lists’ that represents the map. This is done by first, creating a grid that is designated as ‘all wall’, but with a few random spaces, then adding more spaces according to the data list. Hopefully this will become clearer as you type in the program in and play the game."/>
+            <ITEXT CH="Tim’s original variable names are not very descriptive.  For me this added to the fun of working out how the program works.  My code only uses basic Python constructs.  The "/>
+            <ITEXT FONT="Monaco Regular" CH="new_game()"/>
+            <ITEXT CH=" function is probably the most complicated part of the program; it creates a list of 15 x 15-item ‘sub-lists’ that represents the map.  This is done by first creating a grid that is designated as ‘all wall’, but with a few random spaces.  Then more spaces are added according to the data list.  Hopefully, this will become clearer as you type in the program in and play the game."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Have fun finding the gold! "/>
@@ -544,15 +582,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="946" WIDTH="538.5883465" HEIGHT="737" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 737 538.588 737 538.588 737 538.588 737 0 737 0 737 0 737 0 737 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 737 538.588 737 538.588 737 538.588 737 0 737 0 737 0 737 0 737 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="946" WIDTH="538.5883465" HEIGHT="741" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 741 538.588 741 538.588 741 538.588 741 0 741 0 741 0 741 0 741 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 741 538.588 741 538.588 741 538.588 741 0 741 0 741 0 741 0 741 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1827.25393700787" WIDTH="538.5883465" HEIGHT="619.242125984256" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 619.242 538.588 619.242 538.588 619.242 538.588 619.242 0 619.242 0 619.242 0 619.242 0 619.242 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 619.242 538.588 619.242 538.588 619.242 538.588 619.242 0 619.242 0 619.242 0 619.242 0 619.242 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086570867" YPOS="656.496062992126" WIDTH="538.5883465" HEIGHT="153" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 153 538.588 153 538.588 153 538.588 153 0 153 0 153 0 153 0 153 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 153 538.588 153 538.588 153 538.588 153 0 153 0 153 0 153 0 153 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1827.25393700787" WIDTH="538.5883465" HEIGHT="716.74606299213" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 716.746 538.588 716.746 538.588 716.746 538.588 716.746 0 716.746 0 716.746 0 716.746 0 716.746 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 716.746 538.588 716.746 538.588 716.746 538.588 716.746 0 716.746 0 716.746 0 716.746 0 716.746 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -583,10 +617,10 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.34708661126" YPOS="956.505590551418" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="42" BACKITEM="21">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.34708661126" YPOS="956.505590551418" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="41" BACKITEM="21">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="47" BACKITEM="41">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="46" BACKITEM="40">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="91.49952755926" YPOS="2657.16566929121" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -605,14 +639,10 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="42">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="41">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="519.37437007874" YPOS="359.496062992126" WIDTH="147.561062992127" HEIGHT="205" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.48" LOCALSCY="0.48" LOCALX="22.1367290026252" LOCALY="1.0498687664042" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="cover.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 147.561 0 147.561 0 147.561 0 147.561 0 147.561 205 147.561 205 147.561 205 147.561 205 0 205 0 205 0 205 0 205 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 147.561 0 147.561 0 147.561 0 147.561 0 147.561 205 147.561 205 147.561 205 147.561 205 0 205 0 205 0 205 0 205 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="410.87437007874" YPOS="2722.49606299213" WIDTH="256.061062992127" HEIGHT="251.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.48" LOCALSCY="0.48" LOCALX="-6.76820866141592" LOCALY="23.7690288713878" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="quote.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.061 0 256.061 0 256.061 0 256.061 0 256.061 251.5 256.061 251.5 256.061 251.5 256.061 251.5 0 251.5 0 251.5 0 251.5 0 251.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.061 0 256.061 0 256.061 0 256.061 0 256.061 251.5 256.061 251.5 256.061 251.5 256.061 251.5 0 251.5 0 251.5 0 251.5 0 251.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="458" YPOS="359.496062992126" WIDTH="208.935433070867" HEIGHT="325.503937007874" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.24" LOCALSCY="0.24" LOCALX="-31.7734580052502" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="GiantBookOfComputerGames.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 208.935 0 208.935 0 208.935 0 208.935 0 208.935 325.504 208.935 325.504 208.935 325.504 208.935 325.504 0 325.504 0 325.504 0 325.504 0 325.504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 208.935 0 208.935 0 208.935 0 208.935 0 208.935 325.504 208.935 325.504 208.935 325.504 208.935 325.504 0 325.504 0 325.504 0 325.504 0 325.504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -623,6 +653,32 @@
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="660.52031492126" YPOS="3479.77984249921" WIDTH="25.51181102" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 25.5118 0 25.5118 0 25.5118 0 25.5118 0 25.5118 22.6772 25.5118 22.6772 25.5118 22.6772 25.5118 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 25.5118 0 25.5118 0 25.5118 0 25.5118 0 25.5118 22.6772 25.5118 22.6772 25.5118 22.6772 25.5118 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="8" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="47"/>
             <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="446" YPOS="360.15874015748" WIDTH="220.935433070867" HEIGHT="332.84125984252" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 220.935 0 220.935 0 220.935 0 220.935 0 220.935 332.841 220.935 332.841 220.935 332.841 220.935 332.841 0 332.841 0 332.841 0 332.841 0 332.841 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 220.935 0 220.935 0 220.935 0 220.935 0 220.935 332.841 220.935 332.841 220.935 332.841 220.935 332.841 0 332.841 0 332.841 0 332.841 0 332.841 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.34708661126" YPOS="2713" WIDTH="538.588346459607" HEIGHT="57" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="pale python green" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 57 538.588 57 538.588 57 538.588 57 0 57 0 57 0 57 0 57 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 57 538.588 57 538.588 57 538.588 57 0 57 0 57 0 57 0 57 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="2846.66929133858" WIDTH="538.588346456693" HEIGHT="248" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 248 538.588 248 538.588 248 538.588 248 0 248 0 248 0 248 0 248 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 248 538.588 248 538.588 248 538.588 248 0 248 0 248 0 248 0 248 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="131.181732283465" YPOS="2853.50393700787" WIDTH="532.913385826772" HEIGHT="242" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 532.913 0 532.913 0 532.913 0 532.913 0 532.913 242 532.913 242 532.913 242 532.913 242 0 242 0 242 0 242 0 242 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 532.913 0 532.913 0 532.913 0 532.913 0 532.913 242 532.913 242 532.913 242 532.913 242 0 242 0 242 0 242 0 242 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="11" CH="STRONGHOLD OF THE DWARVEN LORDS"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Deep beneath the earth you go, far into the Dwarven Heartland.  Danger is on every side as you descend, but your greed draws you on.  Searching through the dusty stacks of uncatalogued manuscripts in room 546B of the British Museum, you came across a faded, and almost illegible map to a Dwarven hoard of gold, and since that day, you have been obsessed with the idea of finding it."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="As you go down into the labyrinth you realize that the Dwarven Lords, who secreted the gold here 7389 years ago, have long since become extinct, so the main danger you face is from the layout of the cavern system itself, rather than from Guards of the Stronghold."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="In STRONGHOLD OF THE DWARVEN LORDS you are in a cavern which holds the gold.  Each time you play this game, the gold can be in one of three places.  The only information you get as to your progress is information provided by the Dwarven Source Beam which you found as you made your way into the cave system.  This gives you feedback after each move as to the location of the gold, but you need to learn how to interpret the information it gives you before you'll be able to make much use of it."/>
+            <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>

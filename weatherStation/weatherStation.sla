@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.4.3">
-    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="4" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
+    <DOCUMENT ANZPAGES="4" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="13" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="1" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -26,14 +26,14 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -189,12 +189,12 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="514.688031496064" YPOS="134.367464074479" WIDTH="145.825511811024" HEIGHT="126.549921259843" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1.41732283464567" PCOLOR="Black" PCOLOR2="20% Gray" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.156815267979979" LOCALSCY="0.156815267979979" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="Polygon2440" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="NeilTurner.jpg" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 137.322 0 137.322 0 137.322 0 142.018 0 145.826 8.50394 145.826 3.80734 145.826 8.50394 145.826 8.50394 145.826 118.046 145.826 118.046 145.826 118.046 145.826 122.743 137.322 126.55 142.018 126.55 137.322 126.55 137.322 126.55 8.50394 126.55 8.50394 126.55 8.50394 126.55 3.80734 126.55 0 118.046 0 122.743 0 118.046 0 118.046 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 145.826 0 145.826 0 145.826 0 145.826 0 145.826 126.55 145.826 126.55 145.826 126.55 145.826 126.55 0 126.55 0 126.55 0 126.55 0 126.55 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="10.6742936251852" gYpos="10.9549523533976" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="518.116535433071" YPOS="270.4604398775" WIDTH="138.968503937008" HEIGHT="35.3877165354331" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 138.969 0 138.969 0 138.969 0 138.969 0 138.969 35.3877 138.969 35.3877 138.969 35.3877 138.969 35.3877 0 35.3877 0 35.3877 0 35.3877 0 35.3877 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="11.2678555855936" gYpos="142.796616357756" gWidth="153" gHeight="193.248031453543" LAYER="3" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FCOLOR="White" CH="Bryan Andrew Butler "/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="14" FCOLOR="White" CH="Neil Turner "/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -208,18 +208,18 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="72.2047243826773" WIDTH="279.65291338874" HEIGHT="28.4153543574803" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="HEADER TITLE"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="HOME WEATHER STATION"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="90.6988188976379" WIDTH="279.6529134" HEIGHT="34.0837795275591" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="14" FCOLOR="White" CH="The sub-header Text Goes Here"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="14" FCOLOR="White" CH="and the Raspberry Pi"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="220.080703735352" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para LINESP="28"/>
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="Adding a motorised base part 2"/>
+            <ITEXT CH="How I manage my home weather station"/>
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -228,145 +228,199 @@
             <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Introduction"/>
-            <para PARENT="Body title"/>
+            <para PARENT="Body sub-title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="This article describes how I have used my Raspberry Pi to manage my home weather station.   This will include the background to the project and some examples of  the information collected as well as a few pitfalls. The complete software (with working title of Squall) is available from magpi or my own website www.spire-three.com it is open-source and anyone is free to build-upon itRecording and Predicting the WeatherAccurate weather Forecasts  can save  lives and money and the UK Met Office use satellites, weather balloons, ground stations and  supercomputers to produce forecasts that are  accurate for several days ahead.  Clearly, amateurs cannot compete with these resources  but it is surprising what can be achieved with an off-the-shelf weather station and a humble Raspi.The Met Office 's  network of ground-based weather stations include Synoptic  stations recording the weather every hour  and Supplementary stations taking  measurements, at 9-00am each day. Supplementary stations the aim is to produce a continuous record of conditions at that site over a long period of time (30+ years as a minimum but many stations have continuous records stretching much further back). This information helps us to understand long-term changes in the climate. In contrast, synaptic stations'  measurements are more frequent (hourly), include a  additional parameters and provide vital information for  current weather forecasts. Modern home weather stations are largely comparable with supplementary stations. So, we can use the home weather station  to build-up an interesting record of our local weather, learning  a lot in the process.  We may also make educated guesses about what will happen to our weather over the next twelve to twenty-four hours.Our  measurements are made electronically and so can be taken automatically (we don't need to get up in the middle of the night and we can go on holiday knowing exactly what the weather is like at home!). We can also take  readings very frequently, maybe even every five-minutes, allowing us to track changes that happen relatively quickly.  Finally, data can be transferred  to a Raspi for analysis and longer-term storage. ObjectivesMyweather station is branded under the name of a leading chain of UK electronics stores (Maplin) but the same equipment is also available under other names. It is identifiable using the lsusb command as Bus 001 Device 004: ID 1941:8021 Dream Link WH1080 Weather Station / USB Missile Launcher!My aims were:- to  capture and store weather data so that I could look back over weather events to see what had actually  happened. This could involve a lot of  data suggesting that a database would be needed. to see how well MySQL, a commercial strength database, would perform on the Raspi. to be able to make the latest information available on my website, www.spire-three.com in near real-time (ie every 10-20 minutes). The performance of MySQL on the Raspi was the biggest unknown. The database is more than a collection of records, the database manager  includes programs to control every aspect of the database. It was possible that MySQL itself would swallow all of the available resources, locking-up the Raspi.  If so I had a fall-back plan of using an alternative database, SQLite.This project is entirely software based but there is certainly scope to use the Raspi's GPIO capability to expand the range of parameters being monitored;  perhaps adding some form of light metering?  Collecting Raw Weather Data the Open Source WayReadings from instruments outside the house are passed to a base station inside the house by radio link. The base-station stores the data  and makes it available to the Raspi via usb.  When the base-station's buffer is full it over-writes the oldest record. Software is supplied but it is closed source and does not run on linux. .  Fortunately, other  projects have already produced  interfaces for linux and, being open-source, we can use their routines to move the weather data onto our Raspi.  The software that I used  is called  pywws and was developed in Python by Jim Easterbrook, it is an excellent system  providing many facilities. However, for the purposes of Squall, I only needed  the LogData function to capture the weather station data and present it to us as a text-file on the Raspi. The pywws software is well documented with an active forum but I have also outlined my installation (break-out box 1).ExperienceThe weather station and the Raspi have worked well over the last year. Unfortunately, I don't have a really clear site for the station  and I have largely disregarded the wind speed and direction as unreliable. The attached diagrams show data generated by my station. The pressure measurements agree closely with those reported by the National Physical Laboratory and show a series of weather fronts moving across the country in January/February 2013.I live in the a coastal location to the the south of the country and temperatures tend to be slightly higher than the UK averages. However,  The maximum and minimum temperature readings are in general agreement with monthly summaries produced by the Met Office.  This diagram also shows that the  weather station signal is noisy, producing the occasional spurious, unrealistically high or low reading. Simple measures such as keeping cable short and attaching extra ferrite rings would reduce the impact of some types of  interference but don't seem to have solved this problem. A pragmatic approach would be  delete a record that was impossibly higher or lower than readings taken a few minutes before or after. The base station and weather station are both powered by batteries. I would advise  mounting the anemometer (wind speed) and weather vane well above ground level and in the clear. However the temperature and pressure monitor mounted lower at around two metres above ground level. This would be in keeping with Met Office practice but also allows the battery to be changed more easily  when needed.   Were the objectives Met?Yes, my weather data  were in good agreement with the professional results locally and nationally. The system worked well and I was able to transfer results automatically to my website.MySQL performed very well  on the Raspi giving me powerful tools to manage a small but not trivial amount of data. (Taking readings every five minutes will generate 12x24x365= 105,120 records per year. This is small for MySQL but impractical to search manually).I would not seriously recommend MySQL on the Raspi for a production environment but it has  performed and could be a useful option for other projects. It could, perhaps, be useful in teaching SQL.Appendix One  Bash ScriptsSquall consists of a number of Bash scripts. Most of the scripts are relatively simple and cover one task by making a single call to MySQL. Most of the real work is actually done within that MySQL query,If you are unfamiliar with scripts it can seem quite daunting you need to think about it as broken down into many parts. There are guides on the web but there are tutorials on YouTube,In my scripts I may need to do something with a file but I won't know the precise name of the file until I run the program (the name may include a date). Therefore I need to work out what the correct name of the file should be and use that name.  To do this we need to handle text  often known as strings."/>
+            <ITEXT CH="This article describes how I have used my Raspberry Pi to manage my home weather station. This will include the background to the project and some examples of  the information collected as well as a few pitfalls. The complete software (with working title of Squall) is available from magpi or my own website www.spire-three.com it is open-source and anyone is free to build-upon it."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Recording and Predicting the "/>
+            <ITEXT FONT="FreeSans Bold" CH="WeatherAccurate"/>
+            <ITEXT CH=" weather forecasts can save lives and money and the "/>
+            <ITEXT FONT="FreeSans Bold" CH="UK Met Office"/>
+            <ITEXT CH=" uses satellites, weather balloons, ground stations and supercomputers to produce forecasts that are accurate for several days ahead. Clearly, amateurs cannot compete with these resources but it is surprising what can be achieved with an off-the-shelf weather station and a humble Raspberry Pi. "/>
+            <ITEXT FONT="FreeSans Bold" CH="The Met Office"/>
+            <ITEXT CH=" 's  network of ground-based weather stations include Synoptic recording the weather every hour and Supplementary stations taking  measurements, at 9-00am each day. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="For the Supplementary stations the aim is to produce a continuous record of conditions at that site over a long period of time (30+ years as a minimum but many stations have continuous records stretching much further back). This information helps us to understand long-term changes in the climate. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="In contrast, synaptic stations' measurements are more frequent (hourly) and include additional parameters and provide vital information for  current weather forecasts. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Modern home weather stations are largely comparable with supplementary stations. So, we can use the home weather station to build-up an interesting record of our local weather, learning  a lot in the process. We may also make educated guesses about what will happen to our weather over the next twelve to twenty-four hours."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Our measurements are made electronically and so can be taken automatically (we don't need to get up in the middle of the night and we can go on holiday knowing exactly what the weather is like at home!). We can also take readings very frequently, maybe even every five-minutes, allowing us to track changes that happen relatively quickly."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Finally, data can be transferred to a Rasppberry Pi for analysis and longer-term storage. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Objectives"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="My weather station is branded under the name of a leading chain of UK electronics stores (Maplin) but the same equipment is also available under other names. It is identifiable using the lsusb command as Bus 001 Device 004: ID 1941:8021 Dream Link WH1080 Weather Station / USB Missile Launcher!"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="My aim was to capture and store weather data so that I could look back over weather events to see what had actually happened. This could involve a lot of data suggesting that a database would be needed. "/>
+            <ITEXT FCOLOR="Black" CH="I wanted to see how well MySQL, a commercial strength database, would perform on the Rasperry Pi and if it would be able to make the latest information available on my website, www.spire-three.com in near real-time (ie every 10-20 minutes)."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The performance of MySQL on the Raspberry Pi was the biggest unknown. The database is more than a collection of records, the database manager includes programs to control every aspect of the database. It was possible that MySQL itself would swallow all of the available resources, locking-up the Raspberry Pi. If so I had a fall-back plan of using an alternative database, SQLite. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This project is entirely software based but there is certainly scope to use the Raspberry Pi's GPIO capability to expand the range of parameters being monitored; perhaps adding some form of light metering?"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Collecting Raw Weather Data "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The Open Source "/>
+            <ITEXT FONT="FreeSans Oblique" CH="WayReadings"/>
+            <ITEXT CH=" from instruments outside the house are passed to a base station inside the house by radio link. The base-station stores the data and makes it available to the Raspberry Pi via USB. When the base-station's buffer is full it over-writes the oldest record. Software is supplied but it is closed source and does not run on linux. Fortunately, other projects have already produced interfaces for linux and, being open-source, we can use their routines to move the weather data onto our Raspberry Pi."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The software that I used is called "/>
+            <ITEXT FCOLOR="Magpi Pink" CH="pywws"/>
+            <ITEXT CH=" and was developed in Python by Jim Easterbrook. It is an excellent system providing many facilities."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="However, for the purposes of Squall, I only needed the "/>
+            <ITEXT FONT="FreeSans Oblique" CH="LogData"/>
+            <ITEXT CH=" function to capture the weather station data and present it to us as a text-file on the Raspberry Pi. The pywws software is well documented with an active forum but I have also outlined my installation (break-out box 1)."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Experience"/>
+            <para PARENT="Body sub-title"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The weather station and the Raspberry Pi have worked well over the last year. Unfortunately, I don't have a really clear site for the station  and I have largely disregarded the wind speed and direction as unreliable. The attached diagrams show data generated by my station."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The pressure measurements agree closely with those reported by the "/>
+            <ITEXT FONT="FreeSans Bold" CH="National Physical Laboratory"/>
+            <ITEXT CH=" and show a series of weather fronts moving across the country in January/February 2013. I live in the a coastal location to the south of the country and temperatures tend to be slightly higher than the UK averages. However, the maximum and minimum temperature readings are in general agreement with monthly summaries produced by the "/>
+            <ITEXT FONT="FreeSans Bold" CH="Met Office"/>
+            <ITEXT CH=". This diagram also shows that the weather station signal is noisy, producing the occasional spurious, unrealistically high or low reading."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Simple measures such as keeping cable short and attaching extra ferrite rings would reduce the impact of some types of interference but don't seem to have solved this problem. A pragmatic approach would be to delete a record that was impossibly higher or lower than readings taken a few minutes before or after. The base station and weather station are both powered by batteries. I would advise mounting the anemometer (wind speed) and weather vane well above ground level and in the clear. However the temperature and pressure monitor mounted lower at around two metres above ground level. This would be in keeping with "/>
+            <ITEXT FONT="FreeSans Bold" CH="Met Office"/>
+            <ITEXT CH=" practice but also allows the battery to be changed more easily when needed. Were the objectives met? Yes, my weather data were in good agreement with the professional results locally and nationally. The system worked well and I was able to transfer results automatically to my website. MySQL performed very well on the Raspberri Pi giving me powerful tools to manage a small but not trivial amount of data. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Taking readings every five minutes will generate 12x24x365=105,120 records per year. This is small for MySQL but impractical to search manually. I would not seriously recommend MySQL on the Raspberry Pi for a production environment but it has performed well and could be a useful option for other projects. It could, perhaps, be useful in teaching SQL."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Bold Oblique" CH="Appendix One"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Bash ScriptsSquall consists of a number of Bash scripts. Most of the scripts are relatively simple and cover one task by making a single call to MySQL. Most of the real work is actually done within that MySQL query. If you are unfamiliar with scripts it can seem quite daunting. You need to think about it as broken down into many parts. There are guides on the web and tutorials on YouTube. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="In my scripts I may need to do something with a file but I won't know the precise name of the file until I run the program (the name may include a date). Therefore I need to work out what the correct name of the file should be and use that name. To do this we need to handle text often known as strings."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="For example in the load_weather_data script"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="we first set up some text strings"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="we call ~/squall/data/raw by the name PREFIX"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="we let the program know that it should treat PREFIX as a string by referring to it as $PREFIX PREFIX=&quot;~/squall/data/raw/&quot;"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="SUFFIX=&quot;.txt&quot;"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="We have the beginning and the ending of our filename but we need to call the date function to get today's date."/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="The confusing % are telling the Raspberry Pi to use specific parts of the date. Between the % values are some standard text / and in this case $FILE might be 2013/2013-12/2013-12-30 FILE=$(date +&quot;%Y/%Y-%m/%Y-%m-%d&quot;)"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Finally we can join PREFIX, FILE and PREFIX together to get our filename  which we can refer to later as $FILENAME FILENAME=$PREFIX$FILE$SUFFIX $FILENAME would be:                  /squall/data/raw/2013/2013-12/2013-12-30.txt "/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT FONT="FreeSans Bold Oblique" CH="Appendix Two"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="Database and SQL"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="The database design is very simple, with one main table holding dates, times and values. However, values such as maximum and minimum temperature have to be calculated and I created an additional table to hold these calculated values. This is an efficient way to retrieve the information when needed but it is not best practice. (To explain why this might cause problems, imagine that we find another record with a new maximum or minimum temperature. As soon as we add that new record, the previously calculated values are wrong and our database is inconsistent)."/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="SQL Commands"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT CH="The majority of SQL operations create a table, add records to a table or retrieve records. It is not particularly difficult to write the SQL and there are plenty of text books, guides and tutorials available on the net. However, it becomes more complicated. It is not difficult to embed the SQL code from within a script. For example when loading new data onto the database: "/>
+            <ITEXT FONTSIZE="9" CH="mysql -hlocalhost -uroot -praspberry --local-infile --verbose squall &lt; ~/squall/scripts/sql/load_weather_data.sql myysql"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="   **** first set up some text strings#       "/>
-            <tab/>
-            <ITEXT CH="   **** we call  ~/squall/data/raw by the name PREFIX#       "/>
-            <tab/>
-            <ITEXT CH="   **** we let the program know that should treat PREFIX as a string#       "/>
-            <tab/>
-            <ITEXT CH="   **** by referring to it as $PREFIX#PREFIX=&quot;~/squall/data/raw/&quot;SUFFIX=&quot;.txt&quot;##"/>
-            <tab/>
-            <ITEXT CH="  "/>
-            <tab/>
-            <ITEXT CH="**** We have the beginning and the ending of our filename#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="****  but we need to call the date function to get today's date#    "/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** The confusing % are telling the Raspi to use specific parts of the date.#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** between the % values are some standard text / and -#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** in this case $FILE might be 2013/2013-12/2013-12-30#FILE=$(date +&quot;%Y/%Y-%m/%Y-%m-%d&quot;)##"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** finally we can join PREFIX, FILE and PREFIX together#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** to get our filename  which we can refer to later as $FILENAME#FILENAME=$PREFIX$FILE$SUFFIX##"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="**** $FILENAME would be:-#"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="****                   ~/squall/data/raw/2013/2013-12/2013-12-30.txtAppendix Two  Database and SQLThe database design is very simple, with one main table holding dates, times and values. However,  values such as  maximum and minimum temperature have to be calculated and I created an additional table  to hold these calculated values. This is an efficient way to retrieve the information when needed but it is  not best practice. (To explain why this might cause problems, imagine that we find another record with a new maximum or minimum temperature. As soon as we add that new record the previously calculated values are wrong  and our database is inconsistent).SQL CommandsThe majority of SQL operations create a table, add records to a table or retrieve records. It is not particularly difficult to write the SQL and there are plenty of  text books, guides and tutorials available on the net. However, it becomes more complicated.It is not difficult to embed the SQL code from within a script. For example when loading new data onto the database:-"/>
-            <tab/>
-            <ITEXT CH="mysql -hlocalhost -uroot -praspberry --local-infile --verbose squall &lt; "/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="~/squall/scripts/sql/load_weather_data.sql"/>
-            <tab/>
-            <ITEXT CH="mysql"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="command to call  the MySQL database manager."/>
-            <tab/>
-            <ITEXT CH="-hlocalhost "/>
-            <tab/>
-            <ITEXT CH="confirms we are working on our local machine (security is a big issue if we "/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="want "/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="to work remotely)."/>
-            <tab/>
-            <ITEXT CH="-uroot"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="this is the database root user, not root for the whole Raspi! On a full "/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="production "/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="machine we would not run as root."/>
-            <tab/>
-            <ITEXT CH="-praspberry "/>
-            <tab/>
-            <ITEXT CH="the password for the database root"/>
-            <tab/>
-            <ITEXT CH="--local-infile "/>
-            <tab/>
-            <ITEXT CH="warns MySQL to expect some data within a file (you must specify this "/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="but it is "/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="NOT the name of the datafile itself."/>
-            <tab/>
-            <ITEXT CH="--verbose "/>
-            <tab/>
-            <ITEXT CH="if something goes wrong give us some clues."/>
-            <tab/>
-            <ITEXT CH="squall"/>
-            <tab/>
-            <tab/>
-            <ITEXT CH="the name of the database we want to use. "/>
-            <tab/>
-            <ITEXT CH="filename.sql "/>
-            <tab/>
-            <ITEXT CH="a file containing valid SQL commandsThis command invokes but the SQL is actually within the file, load_weather_data.sql. The SQL is:-    LOAD DATA LOCAL INFILE '~/squall/data/indata.dat'   INTO TABLE rawdata   FIELDS TERMINATED BY ','   LINES TERMINATED BY '\n';Appendix Three - PywwsI am using the Logdata function of Pywws to transfer data from the base-station. The instructions on the pywws site are excellent and the only problem area seems to be access to the weather station via usb.  Dependencies, permissions and udev rules to overcome any problems are well described in the pyws documentation.  Pywws itself is quite small so I simply installed the whole package and just used  the script that I needed.Create a work directory for squall"/>
+            <ITEXT CH="command to call the MySQL database manager."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="-hlocalhost confirms we are working on our local machine (security is a big issue if we want to work remotely)."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="-uroot this is the database root user, not the root for the whole Raspberry Pi! On a full production machine we would not run as root. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="-praspberry the password for the database root --local-infile warns MySQL to expect some data within a file (you must specify this but it is NOT  the name of the datafile itself."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="--verbose if something goes wrong give us some clues. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="squall the name of the database we want to use. filename.sql a file containing valid SQL commands this command invokes but the SQL is actually within the file, load_weather_data.sql. The SQL is:-LOAD DATA LOCAL INFILE '~/squall/data/indata.dat' INTO TABLE rawdata   FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n';Appendix Three - Pywws "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="I am using the Logdata function of Pywws to transfer data from the base-station. The instructions on the pywws site are excellent and the only problem area seems to be access to the weather station via usb. Dependencies, permissions and udev rules to overcome any problems are well described in the pywws documentation. Pywws itself is quite small so I simply installed the whole package and just used  the script that I needed."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="pi@raspi256 ~ $  mkdir squallInstall  Python"/>
+            <ITEXT CH="Create a work directory for squall"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="8" CH="pi@raspi256 ~ $  mkdir squallInstall  Python"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="pi@raspi256 ~ $ sudo apt-get install python"/>
+            <ITEXT FONTSIZE="8" CH="pi@raspi256 ~ $ sudo apt-get install python"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="pi@raspi256 ~ $ sudo apt-get install python-usb"/>
+            <ITEXT FONTSIZE="8" CH="pi@raspi256 ~ $ sudo apt-get install python-usb"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="pi@raspi256 ~ $ sudo apt-get install libusb-1.0-0"/>
+            <ITEXT FONTSIZE="8" CH="pi@raspi256 ~ $ sudo apt-get install libusb-1.0-0"/>
             <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Download: pywws-13.10-r1085.tar.gz from https://pypi.python.org/pypi/pywws/13.10-r1085"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Move the pywws archive to the working squall directory: pi@raspi256 ~ $ mv pywws-13.10-r1085.tar.gz ~/squall pi@raspi256 ~ $ cd ~/squall pi@raspi256 ~/squall $ tar zxvf pywws-13.10-r1085.tar.gz "/>
+            <para PARENT="Body text" ALIGN="0" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="Remove  the archive file if you are short of space. pi@raspi256 ~/squall $ rm pywws-13.10-r1085.tar.gz."/>
+            <para PARENT="Body text" ALIGN="0" LINESP="13"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="download pywws-13.10-r1085.tar.gz from https://pypi.python.org/pypi/pywws/13.10-r1085"/>
+            <ITEXT CH="Appendix Four - Preparing charts - "/>
+            <ITEXT FCOLOR="Magpi Pink" CH="GnuplotSquall"/>
+            <ITEXT CH=" uses Gnuplot to generate charts within the script. It is very powerful with the ability to produce almost any conceivable chart. It is not difficult to find examples on the Internet and then adapt them for your own use.  NB Gnuplot syntax is different to standard Bash script."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Move the pywws archive to the working squall directory"/>
-            <tab/>
-            <ITEXT CH="pi@raspi256 ~ $ mv pywws-13.10-r1085.tar.gz ~/squall"/>
-            <tab/>
-            <ITEXT CH="pi@raspi256 ~ $ cd ~/squall"/>
-            <tab/>
-            <ITEXT CH="pi@raspi256 ~/squall $ tar zxvf pywws-13.10-r1085.tar.gzRemove the archive file if you are short of space."/>
-            <tab/>
-            <ITEXT CH="pi@raspi256 ~/squall $ rm pywws-13.10-r1085.tar.gzAppendix Four - Preparing charts  - GnuplotSquall uses Gnuplot to generate charts within the script.   It is very powerful with the ability to produce almost any conceivable chart. It is not difficult to find examples on the Internet and then adapt them for your own use.  NB Gnuplot syntax is different to standard Bash script.Appendix Five -  Raspberry  PiI prepared a clean installation of Raspbian on a Raspi with only 256K memory. The Raspbian image (2013-12-20-wheezy-Raspbian.zip.) was  transferred to the the SD card using the linux command sudo dd bs=1M if=2013-12-20-wheezy-Raspbian.img of=/dev/sdb .  I ran sudo raspi-config to expand the file system space, set the local and hostname set the memory balance to16."/>
-            <trail PARENT="Body text"/>
+            <ITEXT CH="Appendix Five - Raspberry Pi I prepared a clean installation of Raspbian on a Raspberry Pi with only 256K memory. "/>
+            <para PARENT="Body text" LINESP="13"/>
+            <para PARENT="Body text" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="The Raspbian image (2013-12-20-wheezy-Raspbian.zip.) was transferred to the SD card using the linux command sudo dd bs=1M if=2013-12-20-wheezy-Raspbian.img of=/dev/sdb."/>
+            <ITEXT CH=" "/>
+            <para PARENT="Body text" ALIGN="0" LINESP="13"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="13"/>
+            <ITEXT CH="I ran sudo raspi-config to expand the file system space, set the local and the hostname and set the memory balance to16."/>
+            <trail PARENT="Body text" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="30">
@@ -426,7 +480,7 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="54" BACKITEM="31">
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086570867" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="54" BACKITEM="31">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="91.49952755926" YPOS="2657.16566929121" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -466,17 +520,25 @@
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818921" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="45">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="128.347086614173" YPOS="2909.49606299213" WIDTH="257.027283464566" HEIGHT="115" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.027 0 257.027 0 257.027 0 257.027 0 257.027 115 257.027 115 257.027 115 257.027 115 0 115 0 115 0 115 0 115 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.027 0 257.027 0 257.027 0 257.027 0 257.027 115 257.027 115 257.027 115 257.027 115 0 115 0 115 0 115 0 115 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="3" PTYPE="6" XPOS="409.908149606301" YPOS="2834.625" WIDTH="257.027283464566" HEIGHT="59.625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Yellow" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="20" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.027 0 257.027 0 257.027 0 257.027 0 257.027 59.625 257.027 59.625 257.027 59.625 257.027 59.625 0 59.625 0 59.625 0 59.625 0 59.625 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.027 0 257.027 0 257.027 0 257.027 0 257.027 59.625 257.027 59.625 257.027 59.625 257.027 59.625 0 59.625 0 59.625 0 59.625 0 59.625 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1136.49606299213" WIDTH="256.027283464566" HEIGHT="192" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.35" LOCALSCY="0.35" LOCALX="113.385826771654" LOCALY="-24.29696287964" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../portable-pi/PICTURE 1.JPG" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 192 256.027 192 256.027 192 256.027 192 0 192 0 192 0 192 0 192 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 192 256.027 192 256.027 192 256.027 192 0 192 0 192 0 192 0 192 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="-1" PTYPE="2" XPOS="736.347086614173" YPOS="1038.49606299213" WIDTH="256.027283464566" HEIGHT="192" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.35" LOCALSCY="0.35" LOCALX="113.385826771654" LOCALY="-24.29696287964" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../portable-pi/PICTURE 1.JPG" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 192 256.027 192 256.027 192 256.027 192 0 192 0 192 0 192 0 192 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.027 0 256.027 0 256.027 0 256.027 0 256.027 192 256.027 192 256.027 192 256.027 192 0 192 0 192 0 192 0 192 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <ImageEffect Code="3" Param="37"/>
             <ImageEffect Code="4" Param="4"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086614173" YPOS="3047.49606299213" WIDTH="253.027283464566" HEIGHT="14" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://pypi.python.org/pypi/pywws/13.10-r1085" ANZIEL="3" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text61" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 253.027 0 253.027 0 253.027 0 253.027 0 253.027 14 253.027 14 253.027 14 253.027 14 0 14 0 14 0 14 0 14 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 253.027 0 253.027 0 253.027 0 253.027 0 253.027 14 253.027 14 253.027 14 253.027 14 0 14 0 14 0 14 0 14 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="411" YPOS="1206.18992125984" WIDTH="255.935433070867" HEIGHT="183.560078740157" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.216462357004902" LOCALSCY="0.216462357004902" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="raspi_setup.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 183.56 255.935 183.56 255.935 183.56 255.935 183.56 0 183.56 0 183.56 0 183.56 0 183.56 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 183.56 255.935 183.56 255.935 183.56 255.935 183.56 0 183.56 0 183.56 0 183.56 0 183.56 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="411.811653543307" YPOS="1527.58464566929" WIDTH="255.123779527559" HEIGHT="160.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="CineonLog M " EPROF="" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 160.5 255.124 160.5 255.124 160.5 255.124 160.5 0 160.5 0 160.5 0 160.5 0 160.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.124 0 255.124 0 255.124 0 255.124 0 255.124 160.5 255.124 160.5 255.124 160.5 255.124 160.5 0 160.5 0 160.5 0 160.5 0 160.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="13" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>

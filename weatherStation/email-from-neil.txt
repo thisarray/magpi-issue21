@@ -1,0 +1,127 @@
+﻿
+Neil Turner 
+
+18:14 (Il y a 1 heure)
+
+
+à moi 
+
+
+
+
+
+
+Thanks also for your kind words about my dad. Sadly, he died some years ago but it is nice t know that his involvement at Arnhem is still  appreciated.
+
+I attach three
+
+ Neil_Turner_Weather_Station_Author_350dpi.jpg
+
+ Neil_Turner_Weather_Station_make_the_best_of_what_you_have_350dpi.jpg
+
+ Neil_Turner_Weather_Station_where_it_should_be_high_above_the_trees_350dpi.jpg
+
+ monthly_pressure.png
+illustrations and 1 higher quality portrait.
+
+The pdf files are looking good although there were a few issues, mostly around sub-headings. I also include some examples of source code which really need to be indented and perhaps in a different size or typeface to make them readable.
+
+My detailed comments are listed below.
+
+Please let me know if I can be of help.
+
+Regards
+
+Neil
+
+
+1) Page 1 top of para 2.  I had included a sub-heading so it should read:-
+  
+Recording and Predicting the Weather
+Accurate weather......
+
+
+2) Page 1 para 2. Not sure that UK Met Office needs to be in bold.
+
+
+3) Page 1 end para 2.. "network of ground-based weather stations include Synoptic recording the weather"  should read  "network of ground-based  stations include Synoptic weather stations recording the weather"
+
+
+4) Page 2 Top line - there is a spelling mistake, double "p" in Raspberry. 
+
+
+5) Page 3 bottom para. There is a problem with a sub-heading. this should read:-
+
+"Collecting Raw Weather Data the Open Source Way
+Readings from instruments"
+
+
+6) Page 3 middle of para 2. should read
+
+ "However, the temperature and pressure monitors should be mounted lower, at around two metres above ground level"
+
+
+7) Page 3  I understand that space is limited but  the second appendix paragraph  on the right hand side  of the page is confusing. Would it be possible to make them read:-
+
+For example, in the load_weather_data script we set up some text strings, identify  “~/squall/data/raw” by the name PREFIX and let the program know that should treat PREFIX as a string by referring to it as $PREFIX
+
+PREFIX="~/squall/data/raw/"
+SUFFIX=".txt"
+
+We have the beginning and the ending of our filename but need to call the date function to 
+get today's date. We need to store ore files in folders using the year, month and date eg
+ $FILE might be 2013/2013-12/2013-12-30
+
+We can achieve this using the bash command:-
+ 
+FILE=$(date +"%Y/%Y-%m/%Y-%m-%d")
+
+Finally we can join PREFIX, FILE and SUFFFIX together
+to get our filename – which we can refer to later as $FILENAME
+
+FILENAME=$PREFIX$FILE$SUFFIX
+
+$FILENAME could be "~/squall/data/raw/2013/2013-12/2013-12-30.txt".
+
+
+
+8) page 4  second paragraph. This is a little difficult to read. Is it possible to indent  everything after "......loading new data onto the database:-" Perhaps using a contrasting typeface and smaller font  size eg:-
+
+For example when  loading new data onto the database: 
+      mysql -hlocalhost -uroot -praspberry --local-infile --verbose squall <
+     ~/squall/scripts/sql/load_weather_data.sql myysql
+ 
+This command calls the MySQL database manager.
+   - hlocalhost confirms we are working on our local machine (security is a big issue if we want to
+    work remotely).
+   -uroot this is the database root user, not the root for the whole Raspberry Pi! On a full                   production machine we would not run as root.
+    -praspberry the password for the database root
+    --local-infile warns MySQL to expect some data within a file (you must specify this but it is            NOT the name of the datafile itself.
+    --verbose if something goes wrong give us some  clues.
+    squall the name of the database we want to use.
+    filename.sql a file containing valid SQL commands.
+
+This command invokes MySQL but the SQL isctually within the file, load_weather_data.sql. The SQL is:-
+
+LOAD DATA LOCAL INFILE '~/squall/data/indata.dat'
+INTO TABLE rawdata
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n';
+
+
+
+
+9) Page 4 second para on right hand side. Again I think that layout is confusing.
+ I think it would be clearer with more spaces and indentation eg
+
+download pywws-13.10-r1085.tar.gz from https://pypi.python.org/pypi/pywws/13.10-r1085
+
+Move the pywws archive to the working squall directory
+pi@raspi256 ~ $ mv pywws-13.10-r1085.tar.gz ~/squall
+pi@raspi256 ~ $ cd ~/squall
+pi@raspi256 ~/squall $ tar zxvf pywws-13.10-r1085.tar.gz
+
+
+Remove the archive file if you are short of space.
+pi@raspi256 ~/squall $ rm pywws-13.10-r1085.tar.gz
+

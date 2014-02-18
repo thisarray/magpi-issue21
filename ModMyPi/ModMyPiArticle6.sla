@@ -26,13 +26,13 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
-        <STYLE NAME="Body text" ALIGN="3" LINESP="15" FONT="FreeSans Regular" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="Body text" ALIGN="3" LINESP="15" FONT="FreeSans Regular" FONTSIZE="12" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" FEATURES="" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="Body subtitle" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ff00"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -204,17 +204,16 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="28" BACKITEM="-1">
-            <ITEXT FONTSIZE="10" CH="In previous tutorials in Issues 15 to 19 of The MagPi, the basics behind physical computing with the Raspberry Pi computer were introduced.  The previous articles covered basic Python programming and Board/BCM GPIO numbering, which are both used this tutorial."/>
+            <ITEXT CH="In previous tutorials in Issues 15 to 19 of The MagPi, the basics behind physical computing with the Raspberry Pi computer were introduced.  The previous articles covered basic Python programming and Board/BCM GPIO numbering, which are both used this tutorial."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="In this tutorial, a passive infrared sensor (PIR) is used instead of a switch.  The PIR is used to activate a print statement within a Python program when motion is detected. "/>
+            <ITEXT CH="In this tutorial, a passive infrared sensor (PIR) is used instead of a switch.  The PIR is used to activate a print statement within a Python program when motion is detected. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="PIR sensors"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="PIR sensors provide a simple way of detecting motion. Everything on the Earth emits a small amount of infrared radiation, where hotter objects emit more radiation.  PIR sensors are able to detect a change in infrared levels within their detection zone.  For example, "/>
-            <ITEXT CH="when someone comes into a room the PIR detects the infrared radiation change."/>
+            <ITEXT CH="PIR sensors provide a simple way of detecting motion. Everything on the Earth emits a small amount of infrared radiation, where hotter objects emit more radiation.  PIR sensors are able to detect a change in infrared levels within their detection zone.  For example, when someone comes into a room the PIR detects the infrared radiation change."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Assembling the Circuit"/>
@@ -222,56 +221,113 @@
             <para PARENT="Body text"/>
             <ITEXT CH="For this tutorial, the following parts are required:"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="* a breadboard"/>
+            <ITEXT CH="* a breadboard"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="* 6 x male to female jumper wires"/>
+            <ITEXT CH="* 6 x male to female jumper wires"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="* a PIR Sensor"/>
+            <ITEXT CH="* a PIR Sensor"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The breadboard and jumper wires can be purchased from the ModMyPi online shop.  The PIR used in this tutorial is available from several Adafruit distributors."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="1. Use three male to female jumper wires and connect the female ends to the PIR sensor terminals.  The three pins on the PIR are labelled as: Red; PIR-VCC (3-5VDC in), Brown; PIR-OUT (digital out) and Black; PIR-GND (ground)."/>
+            <ITEXT CH="All of the components can be purchased from the ModMyPi online shop."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="2. Plug the male jumper wire connected PIR-VCC into the positive rail of the breadboard, plug PIR-GND wire into your negative rail, and plug the PIR-OUT wire into any other blank rail."/>
+            <ITEXT CH="1. Use three male to female jumper wires and connect the female ends to the PIR sensor terminals.  The three pins on the PIR are labelled as: Red; PIR-VCC (3-5VDC in), Brown; PIR-OUT (digital out) and Black; PIR-GND (ground)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="3. Use a black jumper wire to connect GPIO GND [Pin 6] on the Raspberry Pi to the negative rail of the breadboard, to which the PIR-GND is already connected."/>
+            <ITEXT CH="2. Plug the male jumper wire connected PIR-VCC into the positive rail of the breadboard, plug PIR-GND wire into your negative rail, and plug the PIR-OUT wire into any other blank rail."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="4. Use a red jumper wire to connect GPIO 5V [Pin 2] on the Raspberry Pi to the positive rail of the breadboard, to which the PIR-VCC has already been connected."/>
+            <ITEXT CH="3. Use a black jumper wire to connect GPIO GND [Pin 6] on the Raspberry Pi to the negative rail of the breadboard, to which the PIR-GND is already connected."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="5. Then connect GPIO 7 [Pin 26] to the same rail as the PIR-OUT."/>
+            <ITEXT CH="4. Use a red jumper wire to connect GPIO 5V [Pin 2] on the Raspberry Pi to the positive rail of the breadboard, to which the PIR-VCC has already been connected."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="5. Then connect GPIO 7 [Pin 26] to the same rail as the PIR-OUT."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Sensing with Python"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Now that weve hooked our PIR up to our Pi, we need to program a Python script to register when the PIR senses movement!In our switch tutorial, we had to tie our input high and then have our Python programme define the difference between whether the input was high or low. The PIR on the other hand will always output low (0V) unless movement is detected, in which case it will output high (3.3V). We can therefore simply set our PIR-OUT GPIO pin as an input, and use Python to detect any voltage change."/>
+            <ITEXT CH="The status of the PIR can be checked in a similar way as the switch mentioned in previous tutorials.  However, the PIR does not need a pull-up resistors, since it outputs 0V or 3V3.  The GPIO pin connected to the PIR just needs to be set as an input pin."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="First, import the Python GPIO library, import our time library (so we make our Pi wait between steps) and set our GPIO pin numbering."/>
+            <ITEXT CH="Type in,"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="import RPi.GPIO as GPIO"/>
+            <ITEXT FONTSIZE="10" CH=" import RPi.GPIO as GPIO"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" import time"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" GPIO.setmode(GPIO.BCM)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" PIR_PIN = 7"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" GPIO.setup(PIR_PIN, GPIO.IN)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" try:"/>
+            <tab FONTSIZE="10"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   print &quot;PIR Module Test&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   print &quot;(CTRL+C to exit)"/>
+            <ITEXT CH="&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   time.sleep(2)"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   print Ready"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   while True:"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     if GPIO.input(PIR_PIN):"/>
+            <tab FONTSIZE="10"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="       print &quot;Motion detected!"/>
+            <ITEXT CH="&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     time.sleep(1)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" except KeyboardInterrupt:"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   print &quot;"/>
+            <ITEXT CH="Quitting&quot;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   GPIO.cleanup()"/>
+            <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="import time"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="GPIO.setmode(GPIO.BCM)"/>
+            <ITEXT CH="using the nano text editor.  The program includes several steps that were introduced in the previous articles.  At the top, there are two import statements to allow the GPIO and time functions to be used."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Next, we need to give our input pin a name, so that we can refer to it later in our Python code. Naming it PIR_PIN will enable us to read if the PIR is outputting a signal (e.g. movement has been detected). You can name a pin variable almost anything, so try playing around to see what you can get away with."/>
+            <ITEXT FONTSIZE="10" CH=" import RPi.GPIO as GPIO"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" import time"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Then there is the setmode function,"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="PIR_PIN = 7"/>
+            <ITEXT CH=" GPIO.setmode(GPIO.BCM)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="to configure the GPIO in BCM numbering mode.  More information on the BCM numbering scheme can be found at:"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" http://elinux.org/RPi_Low-level_peripherals"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="We then need to define our GPIO pin that we just named PIR_PIN as an input."/>
+            <ITEXT CH="After the GPIO setupmode, a variable PIR_PIN is used to store the pin associated with the PIR digital out.  This pin number is used to setup the corresponding input pin as an input with"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="GPIO.setup(PIR_PIN, GPIO.IN)"/>
+            <ITEXT CH=" GPIO.setup(PIR_PIN, GPIO.IN)"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The example program includes a try-except statement, to clean up the GPIO connections when the program exits.  Inside the try statement, there are some print lines and a while loop.  The while loop polls the GPIO input every second.  If the GPIO pin is high, then the "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH=" Motion detected!"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="will be printed on the screen."/>
+            <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="The next step is to add some cool text so that we know our PIR, Pi and Python programme are ready to detect movement. You can leave this out, or change it to anything you want! The following will print two lines of text with a two second gap between them."/>
@@ -302,40 +358,6 @@
             <ITEXT FONTSIZE="10" CH="Thats it! We can wrap our programme in a short piece of clean-up code to ensure that it exits cleanly. This isnt compulsory, but its good practice. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="import RPi.GPIO as GPIO"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="import time"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="GPIO.setmode(GPIO.BCM)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="PIR_PIN = 7"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="GPIO.setup(PIR_PIN, GPIO.IN)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="try:"/>
-            <tab FONTSIZE="10"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="  print &quot;PIR Module Test (CTRL+C to exit)"/>
-            <ITEXT CH="&quot;"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="  time.sleep(2)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="print Ready"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="while True:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="if GPIO.input(PIR_PIN):"/>
-            <tab FONTSIZE="10"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="print Motion Detected!"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="time.sleep(1)"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="except KeyboardInterrupt:"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="  print  Quit"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="  GPIO.cleanup()"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="Thats it, a very simple method of connecting and coding a low cost movement sensor with the Raspberry Pi. Next time well hook up a buzzer, some LEDs and a magnetic door lock (if I can get hold of one!) and start devising a low cost RPi based security system!"/>
@@ -344,11 +366,11 @@
             <ITEXT CH="Troubleshooting"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="If you message just keep looping and looping you might have your PIRs sensitivity set too high. Most PIRs have potentiometers on board which can adjust this. Clockwise increases sensitivity. As always, all parts featured in this article are available from the ModMyPi Shop, and the code and tutorial are also available online!"/>
+            <ITEXT CH="If you message just keep looping and looping you might have your PIRs sensitivity set too high. Most PIRs have potentiometers on board which can adjust this. Clockwise increases sensitivity. As always, all parts featured in this article are available from the ModMyPi Shop, and the code and tutorial are also available online!"/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="730.995590551181" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="27">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="730.995590551181" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.996 538.588 730.996 538.588 730.996 538.588 730.996 0 730.996 0 730.996 0 730.996 0 730.996 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="43" BACKITEM="27">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="158.776216225559" WIDTH="612.283464566929" HEIGHT="64.0546498911986" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.123419363952213" LOCALSCY="0.123419363952213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Fade_effect_002.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="11" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -379,19 +401,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1021.110236263" WIDTH="255.652913385827" HEIGHT="62.6397637370028" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 62.6398 255.653 62.6398 255.653 62.6398 255.653 62.6398 0 62.6398 0 62.6398 0 62.6398 0 62.6398 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 62.6398 255.653 62.6398 255.653 62.6398 255.653 62.6398 0 62.6398 0 62.6398 0 62.6398 0 62.6398 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1433" WIDTH="255.653" HEIGHT="249.330708661417" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 249.331 255.653 249.331 255.653 249.331 255.653 249.331 0 249.331 0 249.331 0 249.331 0 249.331 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 249.331 255.653 249.331 255.653 249.331 255.653 249.331 0 249.331 0 249.331 0 249.331 0 249.331 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1239.65354330709" WIDTH="255.653" HEIGHT="223" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 223 255.653 223 255.653 223 255.653 223 0 223 0 223 0 223 0 223 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 223 255.653 223 255.653 223 255.653 223 0 223 0 223 0 223 0 223 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347086614173" YPOS="1836.62204724409" WIDTH="255.652913385827" HEIGHT="222.61811023622" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 222.618 255.653 222.618 255.653 222.618 255.653 222.618 0 222.618 0 222.618 0 222.618 0 222.618 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 222.618 255.653 222.618 255.653 222.618 255.653 222.618 0 222.618 0 222.618 0 222.618 0 222.618 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1505.96850397954" WIDTH="255.652913385827" HEIGHT="29" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 29 255.653 29 255.653 29 255.653 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 29 255.653 29 255.653 29 255.653 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="-1" PTYPE="6" XPOS="-186.298582677166" YPOS="1836.62204724409" WIDTH="255.652913385827" HEIGHT="222.61811023622" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 222.618 255.653 222.618 255.653 222.618 255.653 222.618 0 222.618 0 222.618 0 222.618 0 222.618 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 222.618 255.653 222.618 255.653 222.618 255.653 222.618 0 222.618 0 222.618 0 222.618 0 222.618 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -454,11 +468,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="411" YPOS="2290.21322834644" WIDTH="255.935433070867" HEIGHT="29" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 29 255.935 29 255.935 29 255.935 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 29 255.935 29 255.935 29 255.935 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="-1" PTYPE="6" XPOS="719" YPOS="2246.21322834644" WIDTH="255.935433070867" HEIGHT="29" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 29 255.935 29 255.935 29 255.935 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 29 255.935 29 255.935 29 255.935 29 0 29 0 29 0 29 0 29 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="411.00000002126" YPOS="1858.17716535433" WIDTH="255.9354331" HEIGHT="311.822834645669" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 311.823 255.935 311.823 255.935 311.823 255.935 311.823 0 311.823 0 311.823 0 311.823 0 311.823 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 311.823 255.935 311.823 255.935 311.823 255.935 311.823 0 311.823 0 311.823 0 311.823 0 311.823 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="-1" PTYPE="6" XPOS="712.00000002126" YPOS="1868.17716535433" WIDTH="255.9354331" HEIGHT="311.822834645669" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="20% Gray" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 311.823 255.935 311.823 255.935 311.823 255.935 311.823 0 311.823 0 311.823 0 311.823 0 311.823 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 311.823 255.935 311.823 255.935 311.823 255.935 311.823 0 311.823 0 311.823 0 311.823 0 311.823 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -466,11 +480,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1008.83464566929" WIDTH="256.652913385827" HEIGHT="185" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.288" LOCALSCY="0.288" LOCALX="0" LOCALY="-49.2125984251969" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="image003.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 185 256.653 185 256.653 185 256.653 185 0 185 0 185 0 185 0 185 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 185 256.653 185 256.653 185 256.653 185 0 185 0 185 0 185 0 185 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="-1" PTYPE="2" XPOS="704.347086614173" YPOS="1417.02362204725" WIDTH="256.652913385827" HEIGHT="185" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.288" LOCALSCY="0.288" LOCALX="0" LOCALY="-49.2125984251969" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="image003.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 185 256.653 185 256.653 185 256.653 185 0 185 0 185 0 185 0 185 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 185 256.653 185 256.653 185 256.653 185 0 185 0 185 0 185 0 185 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1446" WIDTH="256.652913385827" HEIGHT="182" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.278181818181818" LOCALSCY="0.278181818181818" LOCALX="0" LOCALY="-20.3798054654933" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="image005.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 182 256.653 182 256.653 182 256.653 182 0 182 0 182 0 182 0 182 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 182 256.653 182 256.653 182 256.653 182 0 182 0 182 0 182 0 182 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1077.49606299212" WIDTH="256.652913385827" HEIGHT="182" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.278181818181818" LOCALSCY="0.278181818181818" LOCALX="0" LOCALY="-20.3798054654933" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="image005.jpg" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 182 256.653 182 256.653 182 256.653 182 0 182 0 182 0 182 0 182 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.653 0 256.653 0 256.653 0 256.653 0 256.653 182 256.653 182 256.653 182 256.653 182 0 182 0 182 0 182 0 182 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <ImageEffect Code="3" Param="37"/>
             <PageItemAttributes/>

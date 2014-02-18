@@ -1,0 +1,95 @@
+http://www.eventbrite.it/e/biglietti-corso-raspberry-pi-10566814627
+Corso Raspberry PI
+Campus La Camilla
+Sabato 8 marzo 2014 dalle 09.00 alle 18.00 (GMT+01:00 Italia)
+Concorezzo, Italia
+
+Campus La Camilla
+267 Via Dante Alighieri 
+20863 Concorezzo
+Italia 
+Sabato 8 marzo 2014 dalle 09.00 alle 18.00 (GMT+01:00 Italia)
+
+Programma del Corso	 
+Breve descrizione dell’hardware
+Configurazione del sistema operativo Linux (guida veloce essenziale)
+Porta GPIO
+Programmare con Python (Python e GPIO)
+Conversione A/D con c.i. MCP3008
+Gestione LED
+Leggere un pulsante
+Leggere un sensore
+Collegare un display
+Collegare altre schede e accessori alla porta GPIO
+Ogni partecipante avrà in dotazione con l’iscrizione il kit di materiale didattico necessario per gli esperimenti comprendente Raspberry PI B + alimentatore 2A + Hub 4 usb + breadboard + materiale elettronico vario.
+
+--
+
+http://www.eventbrite.co.uk/e/picymru-swansea-raspberry-jam-tickets-10323996351?aff=es2&rank=62&sid=378b608a986b11e38e1e22000a880143
+PiCymru - Swansea Raspberry Jam
+Douglas Gore
+Saturday, 8 March 2014 from 13:30 to 17:30 (GMT)
+Swansea, United Kingdom
+TechHub Swansea
+11 Wind Street 
+SA1 1DP Swansea
+United Kingdom 
+Saturday, 8 March 2014 from 13:30 to 17:30 (GMT)
+
+The is the first event organised by PiCymru (picymru.com) the Raspberry Pi user group for Wales. TechHub Swansea has kindly offered to host the event. This event will be a chance to meet other people in the area with an interest in the Raspberry Pi. Families are welcome and there is no requirement to own a Raspberry Pi.
+
+--
+
+http://www.eventbrite.com/e/raspberry-jam-silicon-valley-tickets-8469381147?aff=es2&rank=73&sid=4fa7a494986b11e393b722000a880143
+Raspberry Jam Silicon Valley
+Raspberry Jam Silicon Valley
+Monthly Event - Third Saturday of every month: 1:30 PM to 4:30 PM (PDT)
+Mountain View, CA
+
+Computer History Museum
+1401 North Shoreline Boulevard 
+Mountain View, CA 94043
+
+- Open to the public
+- Free Admission
+- Kids are most highly encouraged to attend
+- You don't need to own a Raspberry Pi
+- Newbies welcome - all questions will be answered
+- If you do have a Pi board, bring it along to show to others
+- Bring software or hardware you may be developing to show off
+- Pi boards will be demonstrating all OS releases currently available, as well as application software for science, technology, engineering, and math education, learning how to develop software, games, media streaming, etc.
+
+--
+
+http://www.eventbrite.com/e/digimakers-march-22nd-2014-tickets-10428480867?aff=es2&rank=82&sid=75e04a4c986b11e38f8222000a880143
+
+DigiMakers- March 22nd 2014
+caroline.higgins@bristol.ac.uk
+Saturday, March 22, 2014 from 10:30 AM to 4:30 PM (GMT)
+Bristol, United Kingdom
+
+@Bristol
+Anchor Road 
+Address Line 2
+BS1 5DB Bristol
+United Kingdom 
+Saturday, March 22, 2014 from 10:30 AM to 4:30 PM (GMT)
+
+DigiMakers; is a series of community technology events aimed at children (7-17), parents and teachers. This is an introduction to 'making' in the digital word, to inspire the next generation of technical innovators and engineers.   From programming software to hacking hardware, we want to show you more ways to have fun with technology.
+ 
+ The British Institute for Computing (BCS), the University of Bristol and our hosts the science learning centre @Bristol are working together to bring you a day filled with hands-on workshops. There will also be a Raspberry Pi drop-in centre and a space where our experts can show-and-tell you about their projects.
+
+--
+
+http://www.eventbrite.co.uk/e/ks2-codebreakers-pm-tickets-10615779081?aff=es2&rank=88&sid=75e04a4c986b11e38f8222000a880143
+http://www.eventbrite.co.uk/e/ks2-codebreakers-am-tickets-10615736955?aff=es2&rank=87&sid=75e04a4c986b11e38f8222000a880143
+
+Camden City Learning Centre
+Charrington Street 
+NW1 1RD London
+United Kingdom 
+Saturday, 29 March 2014 from 10:15 to 12:30 (GMT)
+
+For KS2 Children 8-11 years old
+Codebreakers!
+Codes are great fun. We will explore the basics of counting in binary to count up to 31 just using zeroes and ones. We will use our new counting skills to send simple messages to each other. Then we will encode the messages and try to break the codes. Ideally you will have attended our introductory Raspberry Pi day or had some experience of one at home or school.	

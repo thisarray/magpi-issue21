@@ -15,7 +15,7 @@
         <COLOR NAME="FromSVG#cccccc" RGB="#cccccc" Spot="0" Register="0"/>
         <COLOR NAME="FromSVG#e6e6e6" RGB="#e6e6e6" Spot="0" Register="0"/>
         <COLOR NAME="FromSVG#ea265c" RGB="#ea265c" Spot="0" Register="0"/>
-        <COLOR NAME="Green" RGB="#00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Green" RGB="#00bc00" Spot="0" Register="0"/>
         <COLOR NAME="Magenta" CMYK="#00ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Magpi Pink" RGB="#bc1142" Spot="0" Register="0"/>
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
@@ -50,6 +50,8 @@
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
         <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="FreeMono Bold"/>
+            <Subset Name="FreeMono Regular"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Oblique"/>
             <Subset Name="FreeSans Regular"/>
@@ -260,7 +262,7 @@
             <ITEXT CH="Once you are connected to your network, you need to find out the IP address of your Raspberry Pi. From the command line, enter: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ ifconfig"/>
+            <ITEXT CH=" ifconfig"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="This will display the settings for each network adapter. Find the line that starts with "/>
@@ -277,9 +279,9 @@
             <ITEXT CH="Now we proceed by installing the required packages. From the command line, enter:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ sudo apt-get update"/>
+            <ITEXT CH=" sudo apt-get update"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" $ sudo apt-get install mpd mpc apache2"/>
+            <ITEXT CH=" sudo apt-get install mpd mpc apache2"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Once installed, for good measure I suggest to shutdown then reboot the Raspberry Pi. If you do not use the HDMI cable for sound to your monitor then, while the system is shutdown, it is a good time to connect the Raspberry Pi to some active loudspeakers with a built in amplifier. Alternatively, you can connect it to the Aux/Line In input of your stereo amplifier. For this you might need a cable that has a 3.5mm jack connector attached to the Raspberry Pi audio output and RCA/phono connectors that are attached to the amplifier. "/>
@@ -311,13 +313,13 @@
             <ITEXT CH=" playlist. From the command line, enter: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ cat playlist.txt | mpc add"/>
+            <ITEXT CH=" cat playlist.txt | mpc add"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="To check that the playlist was added, enter: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc playlist"/>
+            <ITEXT CH=" mpc playlist"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="This will list the stations by their URL, or by their name if they have been played. "/>
@@ -326,13 +328,13 @@
             <ITEXT CH="Let's make some noise! To play the first station in the playlist enter, "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc play 1"/>
+            <ITEXT CH=" mpc play 1"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="and to play the second station enter:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc play 2"/>
+            <ITEXT CH=" mpc play 2"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Normally the play command connects to the radio station in less than two seconds and should result in some music. The first station is a classic rock station, &quot;181.fm - The Eagle&quot; while the second station is a classical music station, &quot;Venice Classic Radio Italia&quot;. Look on the taskbar and notice how little CPU is being used (approximately 10%)."/>
@@ -341,21 +343,21 @@
             <ITEXT CH="To display the current station plus the current artist and song being played, enter: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc current"/>
+            <ITEXT CH=" mpc current"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="To stop listening to internet radio, enter: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc stop"/>
+            <ITEXT CH=" mpc stop"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="These are just the basic functions. For more details enter the following:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH=" $ mpc help"/>
+            <ITEXT CH=" mpc help"/>
             <para PARENT="Code"/>
-            <ITEXT CH=" $ man mpc"/>
+            <ITEXT CH=" man mpc"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="You can find a long list of internet radio stations at the following locations:"/>
@@ -380,9 +382,24 @@
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" CH="file. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text" ALIGN="3"/>
-            <ITEXT FONT="FreeSans Oblique" CH="[Ed: Here are some stations from Canada, the Netherlands and the UK to get you started.]"/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeSans Oblique" CH="  [Ed: Here are some stations from Canada, the "/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <ITEXT FONT="FreeSans Oblique" CH="  Netherlands and the UK to get you started.]"/>
+            <para PARENT="Body text" ALIGN="0"/>
+            <tab FONTSIZE="8.5"/>
+            <ITEXT FONTSIZE="8.5" CH="  "/>
+            <para PARENT="Code" ALIGN="0" LINESP="11"/>
+            <ITEXT FONTSIZE="8.5" CH=" http://pub7.sky.fm:80/sky_uptemposmoothjazz"/>
+            <para PARENT="Code" LINESP="11"/>
+            <ITEXT FONTSIZE="8.5" CH=" http://pub6.sky.fm:80/sky_tophits"/>
+            <para PARENT="Code" LINESP="11"/>
+            <ITEXT FONTSIZE="8.5" CH=" http://ice-the.musicradio.com:80/HeartLondonMP3"/>
+            <para PARENT="Code" LINESP="11"/>
+            <ITEXT FONTSIZE="8.5" CH=" http://8573.live.streamtheworld.com/SKYRADIO_SC"/>
+            <para PARENT="Code" LINESP="11"/>
+            <ITEXT FONTSIZE="8.5" CH=" http://8343.live.streamtheworld.com/CHQMFMAAC_SC"/>
+            <para PARENT="Code" LINESP="11"/>
+            <para PARENT="Body text" LINESP="11"/>
             <ITEXT CH="At this point you could take a shortcut and install for example &quot;mpdroid&quot; on your Android device or &quot;MPoD&quot; on your iOS device and remotely control the mpd daemon on your Raspberry Pi. You would get some functionality, but miss out on the fun of learning some HTML and cgi-bin controls of your Raspberry Pi. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -438,7 +455,78 @@
             <ITEXT CH=" looks like:"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
+            <para PARENT="Body text" LINESP="9"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;html&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;head&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;title&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Internet Radio"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/title&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/head&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;frameset "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="cols="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;170,*&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="frameborder="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="framespacing="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="border="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;frame "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="src="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;indexlist.html&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="name="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;index&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;frameset "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="rows="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;50%,50%&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="frameborder="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="framespacing="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="border="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;frame "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="src="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;radio.html&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="name="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;main&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;frame "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="src="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;status.html&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="name="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;status&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;/frameset&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/frameset&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/html&gt;"/>
+            <para PARENT="Code" LINESP="8"/>
+            <para PARENT="Code" LINESP="9"/>
             <ITEXT CH="The head contains just the title information. Then there are two nested framesets. The first contains a frame with a file named "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="indexlist.html"/>
             <ITEXT CH=", which contains the content in the red sidebar. The second frameset contains two frames, one for the radio interface, "/>
@@ -452,6 +540,111 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="indexlist.html"/>
             <ITEXT CH=" file that describes the red sidebar on the left is shown here:"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;html&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;body "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="bgcolor="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="#990000"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="text="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="white"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="link="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="white"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="vlink="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="lightblue"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;radio.html&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="main"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Radio"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;http://192.168.xxx.xxx/&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="blank"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Kitchen"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;http://192.168.xxx.xxx/&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="blank"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Living"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;http://www.listenlive.eu/&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="blank"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      "/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="ListenLive"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;http://www.internet-radio.com/&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="blank"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      "/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Internet Radio"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;br&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;a "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="href="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;http://www.radio-locator.com/&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="blank"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      "/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="RadioLocator"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/a&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/body&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/html&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
             <ITEXT CH="We see the usual header and body directives, where the red background is defined. Then there is a list of HTML anchors with the links to the respective web pages. Note that the anchors have a target directive, which directs the called web page either to a new window with "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="target=blank"/>
             <ITEXT CH=", or to a named frame with "/>
@@ -482,6 +675,136 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="action=&quot;cgi-bin/play.sh&quot;"/>
             <ITEXT CH=". "/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;html&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;head&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;title&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Internet Radio"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/title&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/head&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;body&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;h1&gt;"/>
+            <ITEXT FONT="FreeMono Regular" FONTSIZE="7" CH="Internet Radio Interface"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/h1&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;hr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;table "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="border="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;tr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      &lt;td "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="width="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="100"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="align="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="center"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="        &lt;form "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="action="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;cgi-bin/play.sh&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="method="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;POST&quot;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="            "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="status"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="          &lt;input "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="type="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;submit&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="value="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;Play&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="        &lt;/form&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      &lt;/td&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=":"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=":"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;/tr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;/table&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;hr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;table "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="border="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;0&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;tr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      &lt;td "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="width="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="100"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="align="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="center"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="        &lt;form "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="action="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;cgi-bin/play.sh?1&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=" "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="method="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;POST&quot;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="            "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="target="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="status"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="          &lt;input "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="type="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;submit&quot; "/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Green" CH="value="/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" FCOLOR="Magpi Pink" CH="&quot;Eagle&quot;"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="        &lt;/form&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="      &lt;/td&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=":"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <tab FONT="FreeMono Bold" FONTSIZE="7"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH=":"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="    &lt;/tr&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="  &lt;/table&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/body&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
+            <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/html&gt;"/>
+            <para PARENT="Body text" ALIGN="0" LINESP="8"/>
             <ITEXT CH="This uses the POST method and directs the output of whatever the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="play.sh"/>
             <ITEXT CH=" script produces to the status window. To execute the form we define a button through the "/>
@@ -814,7 +1137,7 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.34708661126" YPOS="2720.28448818032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="53" BACKITEM="39">
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="128.347086570867" YPOS="2719.28448818032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="53" BACKITEM="39">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="4" PTYPE="6" XPOS="91.49952755926" YPOS="3539.05511809911" WIDTH="612.2834646" HEIGHT="36.8503937" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 36.8504 612.283 36.8504 612.283 36.8504 612.283 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -874,18 +1197,6 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="410.408150356023" YPOS="2010.0177472933" WIDTH="256.527282714844" HEIGHT="217.857564938296" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.27232195617287" LOCALSCY="0.27232195617287" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="screenshot1.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 217.858 256.527 217.858 256.527 217.858 256.527 217.858 0 217.858 0 217.858 0 217.858 0 217.858 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.527 0 256.527 0 256.527 0 256.527 0 256.527 217.858 256.527 217.858 256.527 217.858 256.527 217.858 0 217.858 0 217.858 0 217.858 0 217.858 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="2814.74991926058" WIDTH="257.152893066406" HEIGHT="110.48999786377" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.435" LOCALSCY="0.435" LOCALX="0" LOCALY="0.000163511687014239" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="new_index.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 110.49 257.153 110.49 257.153 110.49 257.153 110.49 0 110.49 0 110.49 0 110.49 0 110.49 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 110.49 257.153 110.49 257.153 110.49 257.153 110.49 0 110.49 0 110.49 0 110.49 0 110.49 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="128.347086614173" YPOS="3250.52001184178" WIDTH="257.152893066406" HEIGHT="164.175003051758" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.435" LOCALSCY="0.435" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="new_indexlist.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 164.175 257.153 164.175 257.153 164.175 257.153 164.175 0 164.175 0 164.175 0 164.175 0 164.175 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 164.175 257.153 164.175 257.153 164.175 257.153 164.175 0 164.175 0 164.175 0 164.175 0 164.175 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="3" PTYPE="2" XPOS="411.124359130859" YPOS="3134.29907226562" WIDTH="255.811065673828" HEIGHT="316.5673828125" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.45" LOCALSCY="0.45" LOCALX="0" LOCALY="2.56315545104573e-05" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="new_radio.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 316.567 255.811 316.567 255.811 316.567 255.811 316.567 0 316.567 0 316.567 0 316.567 0 316.567 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.811 0 255.811 0 255.811 0 255.811 0 255.811 316.567 255.811 316.567 255.811 316.567 255.811 316.567 0 316.567 0 316.567 0 316.567 0 316.567 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -985,11 +1296,11 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="409.5" YPOS="1635.38385826772" WIDTH="99.75" HEIGHT="14.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.sky.fm" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text90" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 99.75 0 99.75 0 99.75 0 99.75 0 99.75 14.25 99.75 14.25 99.75 14.25 99.75 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 99.75 0 99.75 0 99.75 0 99.75 0 99.75 14.25 99.75 14.25 99.75 14.25 99.75 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="409.5" YPOS="1635.38385826772" WIDTH="99.75" HEIGHT="14.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://www.sky.fm" ANZIEL="1" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 99.75 0 99.75 0 99.75 0 99.75 0 99.75 14.25 99.75 14.25 99.75 14.25 99.75 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 99.75 0 99.75 0 99.75 0 99.75 0 99.75 14.25 99.75 14.25 99.75 14.25 99.75 14.25 0 14.25 0 14.25 0 14.25 0 14.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347091674805" YPOS="1995.10039370079" WIDTH="255.652908325195" HEIGHT="51.3764839172363" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.530400224741069" LOCALSCY="0.530400224741069" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="playlist.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 51.3765 255.653 51.3765 255.653 51.3765 255.653 51.3765 0 51.3765 0 51.3765 0 51.3765 0 51.3765 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 51.3765 255.653 51.3765 255.653 51.3765 255.653 51.3765 0 51.3765 0 51.3765 0 51.3765 0 51.3765 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.847091674805" YPOS="1954.5" WIDTH="255.902893066406" HEIGHT="105" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.903 0 255.903 0 255.903 0 255.903 0 255.903 105 255.903 105 255.903 105 255.903 105 0 105 0 105 0 105 0 105 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.903 0 255.903 0 255.903 0 255.903 0 255.903 105 255.903 105 255.903 105 255.903 105 0 105 0 105 0 105 0 105 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>

@@ -284,7 +284,7 @@
             <ITEXT CH=" sudo apt-get install mpd mpc apache2"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Once installed, for good measure I suggest to shutdown then reboot the Raspberry Pi. If you do not use the HDMI cable for sound to your monitor then, while the system is shutdown, it is a good time to connect the Raspberry Pi to some active loudspeakers with a built in amplifier. Alternatively, you can connect it to the Aux/Line In input of your stereo amplifier. For this you might need a cable that has a 3.5mm jack connector attached to the Raspberry Pi audio output and RCA/phono connectors that are attached to the amplifier. "/>
+            <ITEXT CH="Once installed, for good measure I suggest you shutdown then reboot the Raspberry Pi. If you do not use the HDMI cable for sound to your monitor then, while the system is shutdown, it is a good time to connect the Raspberry Pi to some active loudspeakers with a built in amplifier. Alternatively, you can connect it to the Aux/Line In input of your stereo amplifier. For this you might need a cable that has a 3.5mm jack connector attached to the Raspberry Pi audio output and RCA/phono connectors that are attached to the amplifier. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="It is time to test the basic software  functionality. The "/>
@@ -430,12 +430,14 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="/var/www/"/>
             <ITEXT CH=" by default. You can change that location by altering the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="apache2"/>
-            <ITEXT CH=" configuration files, but I have assumed you will use the default configuration that came with the installation, as I do. Note that you need sudo permission to put files there. "/>
+            <ITEXT CH=" configuration files, but I have assumed you will use the default configuration that came with the installation, as I do. Note that you need root permission to put files there; use "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="sudo"/>
+            <ITEXT CH=" before each command. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="We need to replace the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="index.html"/>
-            <ITEXT CH=" file with another one that provides the internet radio interface. Here is a screenshot of what I ended up with."/>
+            <ITEXT CH=" file with another one that provides the internet radio interface. I will show you how in a minute, but here is a screenshot of what I ended up with."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="On the left hand side there is a red area with several useful links like the different internet radios scattered in my household, links to  Swedish TV programmes, links to sites with internet radio stations and other useful things. "/>
@@ -645,7 +647,7 @@
             <ITEXT FONT="FreeMono Bold" FONTSIZE="7" CH="&lt;/html&gt;"/>
             <para PARENT="Body text" ALIGN="0" LINESP="8"/>
             <para PARENT="Body text" ALIGN="0" LINESP="8"/>
-            <ITEXT CH="We see the usual header and body directives, where the red background is defined. Then there is a list of HTML anchors with the links to the respective web pages. Note that the anchors have a target directive, which directs the called web page either to a new window with "/>
+            <ITEXT CH="We see the usual header and body directives, where the red background is defined. Then there is a list of HTML anchors with the links to the respective web pages. Note that the anchors have a target directive, which directs the browser when you click the link to either a new window with "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="target=blank"/>
             <ITEXT CH=", or to a named frame with "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="target=main"/>
@@ -817,7 +819,9 @@
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The stanza with between the "/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="&lt;TD&gt;"/>
+            <ITEXT CH=" block between the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="&lt;TR&gt;"/>
             <ITEXT CH=" tags is repeated four times to produce four rows of buttons. In between there are four blocks with the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="&lt;TD&gt;"/>
@@ -830,8 +834,11 @@
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="apache2"/>
             <ITEXT CH=" server is installed, a directory called "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH=" /usr/lib/cgi-bin"/>
-            <ITEXT CH=" is automatically created and you just put the scripts in there. Note that you need sudo permission to put files there. "/>
+            <ITEXT CH=" is automatically created and you just put the scripts in there. Note that you need root permission to put files there; use "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="sudo"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
+            <ITEXT CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT CH="Let's begin with the "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="stop.sh"/>
@@ -856,9 +863,9 @@
             <ITEXT FONTSIZE="10" CH=" echo &quot;Radio stopped...&quot;"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The first line with #!/bin/bash tells the operating system that the contents of this file should be treated as a sequence of bash commands, where bash is a common shell (or command interpreter) for Linux. The empty lines in the file are just for structuring and to 'guide the eye.' Then the three lines with "/>
+            <ITEXT CH="The first line with #!/bin/bash tells the operating system that the contents of this file should be treated as a sequence of bash commands, where bash is a common shell (or command interpreter) for Linux. The empty lines in the file are just for structuring and to 'guide the eye'. The three lines with "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="echo"/>
-            <ITEXT CH=" print the 'Content-type' stuff plus two empty lines to standard output. The setup with the forms in the html causes the output to be piped to the status section of our web page. "/>
+            <ITEXT CH=" tell the browser what content type to expect, plus two empty lines. The setup with the forms in the HTML causes the output to be piped to the status section of our web page. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The HTML interpreter of the browser that receives that information is instructed by the lines that there is just plain text following and therefore the browser has an idea how to format it. The line with "/>
@@ -1061,7 +1068,7 @@
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347091674805" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="733.994384765625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.994 538.588 733.994 538.588 733.994 538.588 733.994 0 733.994 0 733.994 0 733.994 0 733.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.994 538.588 733.994 538.588 733.994 538.588 733.994 0 733.994 0 733.994 0 733.994 0 733.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="39" BACKITEM="26">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347115199773" YPOS="956.505615234375" WIDTH="538.588317871094" HEIGHT="733.994384765625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.994 538.588 733.994 538.588 733.994 538.588 733.994 0 733.994 0 733.994 0 733.994 0 733.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 733.994 538.588 733.994 538.588 733.994 538.588 733.994 0 733.994 0 733.994 0 733.994 0 733.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="39" BACKITEM="26">
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="91.4995275590553" YPOS="158.776216225559" WIDTH="612.283464566929" HEIGHT="64.0546498911986" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.123419363952213" LOCALSCY="0.123419363952213" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="Fade_effect_002.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="1" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 612.283 0 612.283 0 612.283 0 612.283 0 612.283 64.0546 612.283 64.0546 612.283 64.0546 612.283 64.0546 0 64.0546 0 64.0546 0 64.0546 0 64.0546 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="11" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">

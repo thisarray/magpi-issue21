@@ -26,14 +26,14 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="10" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
         <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
@@ -261,10 +261,10 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347115199773" YPOS="359.080718994141" WIDTH="538.588317871094" HEIGHT="450.786712646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 450.787 538.588 450.787 538.588 450.787 538.588 450.787 0 450.787 0 450.787 0 450.787 0 450.787 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="40" BACKITEM="-1">
-            <ITEXT CH="What is FISH-Pi?"/>
+            <ITEXT CH="What is Fish-Pi?"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="FISH-Pi is a soup of technologies which enable me to manage my salt water aquarium remotely via the internet.  If you've ever owned a salt water aquarium you will undoubtedly know that it is a very high maintenance hobby.  Any form of automation is most welcome. One of the critical aspects of salt water aquariums, and keeping corals, is light management.  Too little light or too much light and you are going to grow more algae than you are corals."/>
+            <ITEXT CH="Fish-Pi is a soup of technologies which enable me to manage my salt water aquarium remotely via the internet.  If you've ever owned a salt water aquarium you will undoubtedly know that it is a very high maintenance hobby.  Any form of automation is most welcome. One of the critical aspects of salt water aquariums, and keeping corals, is light management.  Too little light or too much light and you are going to grow more algae than you are corals."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="There are also a few stages of lighting I control throughout the day as well as types of lighting. The amount of time certain lights are on can affect many factors within the fish tank. I needed intelligent control and not just a simple on and off timer switch. In short, I needed a Raspberry Pi."/>
@@ -298,26 +298,26 @@
             <ITEXT CH="• Finally I wanted to &quot;learn&quot; during this process."/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text" FIRST="8.25"/>
-            <ITEXT CH="FISH-Pi's features and functions"/>
+            <ITEXT CH="Fish-Pi's features and functions"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Currently FISH-Pi does the following. I have four types of lighting linked to my aquarium plus one temperature probe. I also use a Raspberry Pi camera to visually confirm the health and state of my tank. Various Python scripts control the state of the lighting throughout the day via a GPIO pin state check (either on or off) as well as constant water temperature metering. Finally the temperature of the Raspberry Pi CPU is monitored."/>
+            <ITEXT CH="Currently, Fish-Pi has the following features. I have four types of lighting linked to my aquarium plus one temperature probe. I also use a Raspberry Pi camera to visually confirm the health and state of my tank. Various Python scripts control the state of the lighting throughout the day via a GPIO pin state check (either on or off) as well as constant water temperature metering. Finally, the temperature of the Raspberry Pi CPU is monitored."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="As no display is attached to the Raspberry Pi, I have created a visual notification system using three LEDs.  "/>
             <para PARENT="Body text"/>
             <ITEXT CH="RED – indicates the automatic schedule is off."/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="YELLOW – indicates system activity. For example while the water temperature is being read (once every minute) the yellow LED strobes."/>
+            <ITEXT CH="YELLOW – indicates system activity. For example, while the water temperature is being read (once every minute) the yellow LED strobes."/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH="GREEN – indicates the automatic schedule is on."/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="I would like to make mention at this point not to abandon simple LED communication. Developing your own visual language through strobes and flashes can be quite fun and creative.  It's also a great way to visually affirm that the Pi has not frozen up."/>
+            <ITEXT CH="I would like to mention at this point not to abandon simple LED communication. Developing your own visual language through strobes and flashes can be quite fun and creative.  It's also a great way to visually affirm that the Raspberry Pi has not frozen up."/>
             <para PARENT="Body text"/>
             <ITEXT CH="Visual indication"/>
             <para PARENT="Body title"/>
-            <ITEXT CH="In the above diagram, at the top you can see the three light sources (comprising a total of 63W of blistering LEDs).  Actinic is the blue light spectrum (30W), daylight is the white spectrum (30W) and moonlight (3W) needs no explanation. Down below I have a second tank, called a sump, which contains a sump filter. That handles my water filtration. Here you will see the sump light. All lights are wired to digital relays which in turn are wired to the GPIO. Housed in the display tank is a digital thermometer which is also connected to the GPIO. A Raspberry Pi camera let's me view the tank remotely. Last but not least are the three status indictor LEDs."/>
+            <ITEXT CH="In the above diagram, at the top you can see the three light sources (comprising a total of 63W of blistering LEDs).  Actinic is the blue light spectrum (30W), daylight is the white spectrum (30W) and moonlight (3W) needs no explanation. Under the aquarium I have a second tank, called a sump, which contains a sump filter that handles my water filtration. Here you will see the sump light. All lights are wired to digital relays which in turn are wired to the GPIO. Housed in the display tank is a digital thermometer which is also connected to the GPIO. A Raspberry Pi camera lets me view the tank remotely. Last, but not least, are the three status indictor LEDs."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="I will not be going into depth on the construction and wiring of the high power LEDs that run over my tank. Instead I will focus more on the Raspberry Pi and the various scripts. However, if anyone is interested in building high-powered LED systems using modules that can be ordered online, visit my website at "/>
@@ -328,16 +328,16 @@
             <ITEXT CH="Web interface"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="I put considerable effort into the graphics side of FISH-Pi, using royalty free graphics and some of my own Photoshop skills. But let me give you some advice... avoid the pretty stuff and get your framework working first. For example get your web page buttons working correctly first, then brush them up when you are done."/>
+            <ITEXT CH="I put considerable effort into the graphics side of FISH-Pi, using royalty free graphics and some of my own Photoshop skills. But let me give you some advice... avoid the pretty stuff and get your framework working first. For example, get your web page buttons working correctly first, then brush them up when you are done."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In the control panel above I have buttons that control the various lights in a very simple format of ON or OFF. There is an option to cycle the lights which basically goes into auto mode (I will elaborate on this later). At the bottom I have some orbs which show the live status of the lights by indicating ON or OFF. This is simply achieved by checking the state of the GPIO pins and writing the value out to a text file, which is then read by the web interface. "/>
+            <ITEXT CH="In the control panel above I have buttons that control the various lights in a very simple format of ON or OFF. There is an option to cycle the lights, which basically goes into auto mode (I will elaborate on this later). At the bottom I have some orbs, which show the live status of the lights by indicating ON or OFF. This is simply achieved by checking the state of the GPIO pins and writing the value out to a text file, which is then read by the web interface. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="At the top I display the current water temperature. Below that there are two icons which represent temperature data and camera access.  Let's take a look at a graph I was able to create with the temperature data."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The temperature is read at one minute intervals. I take a span of 30 “reads” from the temperature database which gives me an overview of the last half an hour. The same can be presented in a bar graph format. I have also added the Raspberry Pi CPU temperature in this section."/>
+            <ITEXT CH="The temperature is read at one minute intervals. I take a span of 30 “reads” from the temperature database, which gives me an overview of the last half an hour. The same can be presented in a bar graph format. I have also added the Raspberry Pi CPU temperature in this section."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Hardware components"/>
@@ -426,7 +426,7 @@
             <ITEXT CH="There is a good reason why I didn't just solder this section up.  The GPIO pin for the temperature sensor MUST be GPIO pin 4 because it is classed as a &quot;1-wire&quot; sensor. You are able to attach multiple &quot;1- wire&quot; sensors in parallel  to the single GPIO pin 4 on the Raspberry Pi. The additional sensors will not need their own 4K7 resistor. The terminal block makes adding more &quot;1-wire&quot; sensors a very simple and neat exercise."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you read the above article from Adafruit you will see that each &quot;1-wire&quot; device has its own serial number, or ID.  It will register itself under its own folder on the Raspberry Pi. As a result there is no clash. Just make sure you buy digital sensors and not analogue!"/>
+            <ITEXT CH="If you read the Adafruit article you will see that each &quot;1-wire&quot; device has its own serial number, or ID. It will register itself under its own folder on the Raspberry Pi. As a result there is no clash. Just make sure you buy digital sensors and not analogue!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Three status LEDs"/>
@@ -466,7 +466,7 @@
             <ITEXT CH=" snd-bcm2835"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Some may not have experienced this but if you do then I suggest you configure your modules to start up in the above order. (I am not using I"/>
+            <ITEXT CH="Some may not have experienced this, but if you do then I suggest you configure your modules to start up in the above order. (I am not using I"/>
             <ITEXT FEATURES="inherit superscript" CH="2"/>
             <ITEXT CH="C hence I have left them commented out)."/>
             <para PARENT="Body text"/>
@@ -575,7 +575,7 @@
             <para PARENT="Body text"/>
             <ITEXT CH="To regularly measure the temperature I use "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="crontab"/>
-            <ITEXT CH=". This will execute a command at certain intervals. In my instance I needed a temperature reading taken once every minute. From the command line type:"/>
+            <ITEXT CH=". This will execute a command at certain intervals. In this instance I needed a temperature reading taken once every minute. From the command line type:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" crontab -e "/>
@@ -635,7 +635,7 @@
             <para PARENT="Body text"/>
             <ITEXT CH="The "/>
             <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="thermcheck.py"/>
-            <ITEXT CH=" script is more complex as it also writes the DS18B20 temperature reading and the Pi CPU reading to the SQLite database. Additionally it flashes the yellow LED five times to show activity. The code is too long to include but an important snippet to show is where to replace my temperature sensor serial value with the serial value for yours."/>
+            <ITEXT CH=" script is more complex as it also writes the DS18B20 temperature reading and the Pi CPU reading to the SQLite database. Additionally, it flashes the yellow LED five times to show activity. The code is too long to include, but an important snippet to show is where to replace my temperature sensor serial value with the serial value for yours."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" tfile = open(&quot;/sys/bus/w1/devices/28-0000"/>
@@ -925,7 +925,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="5" PTYPE="4" XPOS="431.25" YPOS="5193.75" WIDTH="135.75" HEIGHT="15.2260627746582" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://piworx.subzerobc.com" ANZIEL="5" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text98" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 15.2261 135.75 15.2261 135.75 15.2261 135.75 15.2261 0 15.2261 0 15.2261 0 15.2261 0 15.2261 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 15.2261 135.75 15.2261 135.75 15.2261 135.75 15.2261 0 15.2261 0 15.2261 0 15.2261 0 15.2261 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="5" PTYPE="4" XPOS="431.25" YPOS="5193.75" WIDTH="135.75" HEIGHT="15.2260627746582" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://piworx.subzerobc.com" ANZIEL="5" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 15.2261 135.75 15.2261 135.75 15.2261 135.75 15.2261 0 15.2261 0 15.2261 0 15.2261 0 15.2261 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 135.75 0 135.75 0 135.75 0 135.75 0 135.75 15.2261 135.75 15.2261 135.75 15.2261 135.75 15.2261 0 15.2261 0 15.2261 0 15.2261 0 15.2261 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>

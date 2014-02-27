@@ -30,11 +30,11 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
         <STYLE NAME="ArticleInfoText" ALIGN="3" LINESP="22" FONT="FreeSans Bold Oblique" FONTSIZE="18" LANGUAGE="English"/>
         <STYLE NAME="BodyText" ALIGN="3" LINESP="14" FONT="FreeSans Regular" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (1)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (2)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Copy of Default Character Style (3)" FONT="Bitstream Charter Bold" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
@@ -114,7 +114,7 @@
             <ITEXT CH="The Raspberry Pi is your gateway to a world of limitless adventures in technology."/>
             <para/>
             <para/>
-            <ITEXT CH="Adentures in Raspberry Pi is the ticket that gians you admission to that world. High school computing teacher (and now Education Pioneer at the Raspberry Pi Foundation) Carrie Ann Philbin walks you step-by-step through all the basics you need to know."/>
+            <ITEXT CH="Adentures in Raspberry Pi is the ticket that gains you admission to that world. High school computing teacher (and now Education Pioneer at the Raspberry Pi Foundation) Carrie Ann Philbin walks you step-by-step through all the basics you need to know."/>
             <para/>
             <para/>
             <ITEXT CH="Once you know the basics, the Raspberry Pi offers endless possibilities. Adventures in Raspberry Pi is the perfect guide to learning the skills to make the most of your Raspberry Pi. And to make your journey that much easier, the Adventures in Raspberry Pi companion website supplies you with video tutorials for every project in the book. You can visit the companion website at www.wiley.com/go/adventuresinrp to see videos of the projects, download code files and collect badges for your Raspberry Pi  accomplishments."/>

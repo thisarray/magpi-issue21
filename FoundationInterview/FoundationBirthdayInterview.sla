@@ -21,7 +21,7 @@
         <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
         <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
         <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
-        <COLOR NAME="Theme" CMYK="#ff9e1f00" Spot="0" Register="0"/>
+        <COLOR NAME="Theme" CMYK="#ff000000" Spot="0" Register="0"/>
         <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>

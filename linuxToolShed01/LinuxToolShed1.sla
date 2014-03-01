@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.4.3">
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
     <DOCUMENT ANZPAGES="3" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="1" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -27,17 +27,17 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="TOC_Title_Style" FONT="FreeSans Bold" LANGUAGE="English"/>
-        <STYLE NAME="Body text" ALIGN="3" FONTSIZE="10" LANGUAGE="English"/>
+        <STYLE NAME="Body text" ALIGN="3" FONTSIZE="11" LANGUAGE="English"/>
         <STYLE NAME="Body sub-title" FONT="FreeSans Bold Oblique" FONTSIZE="13" LANGUAGE="English"/>
         <STYLE NAME="Body title" FONT="FreeSans Bold" FONTSIZE="14" LANGUAGE="English"/>
         <STYLE NAME="Code" LINESP="13" FONT="Monaco Regular" FONTSIZE="9" LANGUAGE="English"/>
         <STYLE NAME="New Style" LANGUAGE="English"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="FreeSans Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="1" LEVEL="0" NAME="Header" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff0000"/>
         <LAYERS NUMMER="9" LEVEL="3" NAME="Effect:Header_bottom_bar" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#e1ff1a"/>
-        <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="0" DRUCKEN="0" EDIT="1" FLOW="0" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
+        <LAYERS NUMMER="10" LEVEL="1" NAME="Effect : Header_Fade" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="0" TRANS="1" BLEND="0" OUTL="0" LAYERC="#0000ff"/>
         <LAYERS NUMMER="0" LEVEL="5" NAME="Header_and_footer" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <LAYERS NUMMER="8" LEVEL="6" NAME="Page_Number_Right" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#5500ff"/>
         <LAYERS NUMMER="7" LEVEL="7" NAME="Page_Number_Left" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#55557f"/>
@@ -174,25 +174,25 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="409.403149606299" YPOS="61.2148031496063" WIDTH="324.971220472441" HEIGHT="51.6727559055118" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0.4" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 316.467 0 316.467 0 316.467 0 321.164 0 324.971 8.50394 324.971 3.80734 324.971 8.50394 324.971 8.50394 324.971 43.1688 324.971 43.1688 324.971 43.1688 324.971 47.8654 316.467 51.6728 321.164 51.6728 316.467 51.6728 316.467 51.6728 8.50394 51.6728 8.50394 51.6728 8.50394 51.6728 3.80734 51.6728 0 43.1688 0 47.8654 0 43.1688 0 43.1688 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="16" COCOOR="0 0 0 0 324.971 0 324.971 0 324.971 0 324.971 0 324.971 51.6728 324.971 51.6728 324.971 51.6728 324.971 51.6728 0 51.6728 0 51.6728 0 51.6728 0 51.6728 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="442.992767333984" YPOS="61.2148017883301" WIDTH="291.381591796875" HEIGHT="51.6727561950684" RADRECT="8.50393700787402" FRTYPE="2" CLIPEDIT="0" PWIDTH="1" PCOLOR="Black" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0.4" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="32" POCOOR="8.50394 0 8.50394 0 282.878 0 282.878 0 282.878 0 287.574 0 291.382 8.50394 291.382 3.80734 291.382 8.50394 291.382 8.50394 291.382 43.1688 291.382 43.1688 291.382 43.1688 291.382 47.8654 282.878 51.6728 287.574 51.6728 282.878 51.6728 282.878 51.6728 8.50394 51.6728 8.50394 51.6728 8.50394 51.6728 3.80734 51.6728 0 43.1688 0 47.8654 0 43.1688 0 43.1688 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMCO="32" COCOOR="8.50394 0 8.50394 0 282.878 0 282.878 0 282.878 0 287.574 0 291.382 8.50394 291.382 3.80734 291.382 8.50394 291.382 8.50394 291.382 43.1688 291.382 43.1688 291.382 43.1688 291.382 47.8654 282.878 51.6728 287.574 51.6728 282.878 51.6728 282.878 51.6728 8.50394 51.6728 8.50394 51.6728 8.50394 51.6728 3.80734 51.6728 0 43.1688 0 47.8654 0 43.1688 0 43.1688 0 8.50394 0 8.50394 0 8.50394 0 3.80734 8.50394 0 3.80734 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="72.2047243826773" WIDTH="279.65291338874" HEIGHT="28.4153543574803" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="433.189606306299" YPOS="72.2047243826773" WIDTH="279.65291338874" HEIGHT="28.4153543574803" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 28.4154 279.653 28.4154 279.653 28.4154 279.653 28.4154 0 28.4154 0 28.4154 0 28.4154 0 28.4154 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="LINUX COMMANDS"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="413.34708662126" YPOS="90.6988188976379" WIDTH="279.6529134" HEIGHT="34.0837795275591" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="433.189606306299" YPOS="90.6988188976379" WIDTH="279.6529134" HEIGHT="34.0837795275591" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="14" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 279.653 0 279.653 0 279.653 0 279.653 0 279.653 34.0838 279.653 34.0838 279.653 34.0838 279.653 34.0838 0 34.0838 0 34.0838 0 34.0838 0 34.0838 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="1" LAYER="4" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="FreeSans Regular" FONTSIZE="14" FCOLOR="White" CH="ping &amp; traceroute"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="225.749995073935" WIDTH="375.777221679688" HEIGHT="75.4192962646484" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 375.777 0 375.777 0 375.777 0 375.777 0 375.777 75.4193 375.777 75.4193 375.777 75.4193 375.777 75.4193 0 75.4193 0 75.4193 0 75.4193 0 75.4193 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <para LINESP="28"/>
-            <ITEXT CH="Tails from the Linux tool shed:"/>
+            <ITEXT FONTSIZE="25" CH="Tails from the Linux tool shed:"/>
             <para LINESP="28"/>
-            <ITEXT CH="Give me a ping, Vasily!"/>
+            <ITEXT FONTSIZE="21" CH="Give me a ping Vasili. One ping only."/>
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -204,54 +204,62 @@
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="For this tutorial, a Raspberry Pi is assumed to be connected to a home router.  Once the Raspberry Pi is connected to the home router, "/>
-            <ITEXT FONT="Monaco Regular" CH="ifconfig"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ifconfig"/>
             <ITEXT CH=" can be used to check the assigned IP address:"/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
             <ITEXT CH="In this case, a Model B Raspberry Pi is connected via an ethernet cable to the router.  The name "/>
-            <ITEXT FONT="Monaco Regular" CH="eth0"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="eth0"/>
             <ITEXT CH=" is used for the ethernet port on the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="ping"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Let us picture a situation where our network connection to the Internet has been working fine yesterday, but suddenly seems to be down or at least has become very unreliable.  In this example, the IP address of our firewall/router is "/>
-            <ITEXT FONT="Monaco Regular" CH="192.168.0.1"/>
-            <ITEXT CH=".  This will be helpful to check the local area network.  We also need an external reference, such as one of the Google DNS servers "/>
-            <ITEXT FONT="Monaco Regular" CH="8.8.8.8"/>
+            <ITEXT CH="Let us picture a situation where our network connection to the internet was working fine yesterday, but suddenly seems to be down today, or at least has become very unreliable. For this example, we will assume that the IP address of our firewall/router is "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="192.168.0.1"/>
+            <ITEXT CH=" (yours may be different). This will be helpful to check the local area network. We also need an external reference, such as one of the Google DNS servers "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="8.8.8.8"/>
             <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="ping allows us to test the connectivity and measure delay and packet loss to any host in the network.  First things first, let us see if we can still reach the router on our local area network by typing "/>
-            <ITEXT FONT="Monaco Regular" CH="ping -c3 192.168.0.1"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" allows us to test the connectivity and measure delay and packet loss to any host in the network.  First things first, let us see if we can still reach the router on our local area network. Open LXTerminal and enter "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping -c3 192.168.0.1"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The ping command works by sending probe packets to the destination and waits for them to be sent back.  The command sends special echo requests and echo reply messages defined by the Internet Control Message Protocol (ICMP), where a communication protocol is a well specified convention on how two systems can communicate with each other.  In the case of ICMP, this convention is documented as an Internet standard in RFC792 ("/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" command works by sending probe packets to the destination and waits for them to be sent back.  The command sends special echo requests and echo reply messages, as defined by the Internet Control Message Protocol (ICMP). A communication protocol is a well specified convention on how two systems can communicate with each other. In the case of ICMP, this convention is documented as an internet standard in RFC792 ("/>
             <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://tools.ietf.org/html/rfc792"/>
             <ITEXT CH=")."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Since ICMP echo request/reply processing is typically part of the lowest level of networking support in each properly implemented Internet host, it is a very reliably way to determine if a host can be reached over the network."/>
+            <ITEXT CH="Since ICMP echo request/reply processing is typically part of the lowest level of networking support in each properly implemented internet host, it is a very reliable way to determine if a host can be reached over the network. However, it is worth noting that a firewall will often prevent "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" from responding. On most Windows machines, the default firewall setup prevents ICMP echo from even getting to the machine. The default on a Raspberry Pi is that ICMP echo will get through."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="The "/>
-            <ITEXT FONT="Monaco Regular" CH="ping"/>
-            <ITEXT CH=" utility is nearly as old as the Internet itself and is named after the eery sharp, metallic sound of an acoustic sonar probe, we might be familiar with from WWII submarine movies."/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" utility is nearly as old as the internet itself and is named after the eery, sharp, metallic sound of an acoustic sonar probe we might be familiar with from submarine movies, like &quot;The Hunt for Red October&quot;."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="From the results of the ping, we can see that our Internet gateway still exists on the network and that we have a router round-trip time of  less than a millisecond. Out of three probe packets that we sent, three responses were received and the fluctuation in the response time is quite low."/>
+            <ITEXT CH="From the results of the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=", we can see that our internet gateway still exists on the network and that we have a router round-trip time of  less than a millisecond. Out of three probe packets that we sent, three responses were received and the fluctuation in the response time is quite low."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Instead of using"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" CH="ping -c 3 192.168.0.1"/>
-            <ITEXT CH=", we could also just use"/>
-            <para PARENT="Body text"/>
-            <ITEXT FONT="Monaco Regular" CH="ping 192.168.0.1"/>
-            <ITEXT CH=" in which case the program runs forever until interrupted by the user typing CTRL-C or killing the process.  This enables us to observe the state of network connectivity over time, for example as we wiggle network cables or plug and unplug devices."/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" ping -c 3 192.168.0.1"/>
+            <ITEXT CH=" we could also just use"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH=" ping 192.168.0.1"/>
+            <ITEXT CH=". In this case the program runs forever until interrupted by the user pressing &lt;CTRL&gt;+C or killing the process. This enables us to observe the state of network connectivity over time, for example as we wiggle network cables or plug and unplug devices."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Ping allows several options.  Some particularly interesting ones are:"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" allows several options. Some particularly interesting ones are:"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" "/>
             <ITEXT FONT="FreeSans Bold" CH="-c count"/>
@@ -263,69 +271,98 @@
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH=" "/>
             <ITEXT FONT="FreeSans Bold" CH="-s size"/>
-            <ITEXT CH=" : send probe packets of size &lt;packetsize&gt; (default 64 bytes)"/>
+            <ITEXT CH=" : send probe packets of size &lt;size&gt; (default 64 bytes)"/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT CH=" "/>
             <ITEXT FONT="FreeSans Bold" CH="-n"/>
             <ITEXT CH=" : don’t try to translate numeric IP addresses into hostnames"/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT CH="Other options can be listed by typing man ping."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Other options can be listed by typing "/>
+            <ITEXT FONT="Monaco Regular" CH="man ping"/>
+            <ITEXT CH="."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Since the local aread network is working correctly,  ping can be used to check the external connectivity with the IP "/>
-            <ITEXT FONT="Monaco Regular" CH="8.8.8.8"/>
-            <ITEXT CH=":"/>
+            <ITEXT CH="Since the local area network is working correctly,  "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" can be used to check the external connectivity to the Google DNS servers (IP address "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="8.8.8.8"/>
+            <ITEXT CH=") with the command "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping -c 3 8.8.8.8"/>
+            <ITEXT CH=": "/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Having ruled out a problem with the local area network, we now suspect that there might be a problem with the connection from our router to the Internet."/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Having ruled out a problem with the local area network, we now suspect that there might be a problem with the connection from our router to the internet."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There can be cases where the packet loss is somewhere in between 0% and 100%.  Irregular packet loss can be caused by flaky network cables, loose connectors, and unstable or overloaded gateways in the network.  Even with low packet loss, high delays or high variation of delay might degrade the performance of higher level protocols, such as http or ssh."/>
+            <ITEXT CH="There can be cases where the packet loss is somewhere in between 0% and 100%. Irregular packet loss can be caused by flaky network cables, loose connectors and unstable or overloaded gateways in the network.  Even with low packet loss, high delays or high variation of delay might degrade the performance of higher level protocols, such as HTTP or SSH."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Like any good Internet host, the Linux kernel in our own Raspberry Pi contains a responder for ICMP echo requests and we can effectively test our own networking stack and how fast the our kernel can process small packets:"/>
+            <ITEXT CH="Like any good internet host, the Linux kernel in the Raspberry Pi contains a responder for ICMP echo requests and we can effectively test our own networking stack and how fast the kernel can process small packets. Enter "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping -c 5 localhost"/>
+            <ITEXT CH=": "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="traceroute"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="While "/>
-            <ITEXT FONT="Monaco Regular" CH="ping"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
             <ITEXT CH=" is a quick and easy way to determine if we can reach a destination or not, "/>
-            <ITEXT FONT="Monaco Regular" CH="traceroute"/>
-            <ITEXT CH=" allows us to find out more about each hop our traffic is taking towards a given destination IP. For example, traceroute can be used to find exactly where the traffic is lost between our router ("/>
-            <ITEXT FONT="Monaco Regular" CH="192.168.0.1"/>
-            <ITEXT CH=") and the Google DNS ("/>
-            <ITEXT FONT="Monaco Regular" CH="8.8.8.8"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" allows us to find out more about each hop our traffic is taking towards a given destination IP address. For example, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" can be used to find exactly where the traffic is lost between our router ("/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="192.168.0.1"/>
+            <ITEXT CH=") and the Google DNS servers ("/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="8.8.8.8"/>
             <ITEXT CH=") by typing "/>
-            <ITEXT FONT="Monaco Regular" CH="traceroute 8.8.8.8"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute 8.8.8.8"/>
+            <ITEXT CH=":"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The command prints out each hop and the time taken for the ICMP message.  If the time taken exceeds the timeout limit, then three stars are printed instead.  This can signal a slow network link, or a connection problem.  There appears to be a problem a few hops away from our Internet connection itself.  "/>
+            <ITEXT CH="The command prints out each hop and the time taken for the ICMP message.  If the time taken exceeds the timeout limit, then three stars are printed instead.  This can signal a slow network link, or a connection problem.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="There appears to be a problem a few hops away from our internet connection itself. Then a few moments later, the service is restored and we can again successfully reach the destination."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
+            <ITEXT CH="The "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" command shows addresses and hostnames of all the router nodes that packets are going through from our Raspberry Pi to the destination.  For this, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" takes advantage of another ICMP feature, the time-to-live expiry message. All packets that are sent through the internet have a maximum number of times that they can be passed on by routers. This value is decremented at each hop, to prevent packets from going around forever if they can’t find their destination point.  When a packet is discarded in the network, the router sends out an ICMP message to alert the sender that the packet has been discarded."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Then a few moments later, the service is restored and we can again successfully reach the destination."/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The traceroute command shows addresses and hostnames of all the router nodes that packets are going through from our Raspberry Pi to the destination.  For this, traceroute takes advantage of another ICMP feature, the time-to-live expiry message.  All packets that are sent through the Internet have a maximum number of times that they can be passed on by routers.  This value is decremented at each hop, to prevent packets from going around forever if they can’t find their destination point.  When a packet is discarded in the network, the router sends out an ICMP message to alert the sender that the packet has been discarded."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="In order to discover a network path, traceroute sends out a series of packets (default of three) with a time-to-live limited to one, just to see who will send back an ICMP time exceeded message.  The command then repeats this process with increasing time-to-live values until it reaches the destination."/>
+            <ITEXT CH="In order to discover a network path, "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" sends out a series of packets (default of three) with a time-to-live limited to one, just to see who will send back an ICMP time exceeded message. The command then repeats this process with increasing time-to-live values until it reaches the destination."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There are many more useful commands that can be used to examine the state of the network or test its performance.  However, the main  advantage of tools like ping and traceroute is  that they work directly with support deep in the operating system kernel.  This can sometimes mean that a computer will still respond to ping requests, even if it otherwise appears to be completely stuck or has no networking applications running."/>
+            <ITEXT CH="There are many more useful commands that can be used to examine the state of the network or test its performance.  However, the main  advantage of tools like "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" is  that they work directly with support deep in the operating system kernel.  This can sometimes mean that a computer will still respond to "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" requests, even if it otherwise appears to be completely stuck or has no networking applications running."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When some network application like ssh or web browsing are not working properly, tools like ping and traceroute are great to figure out whether there is a low-level networking problem or the problem is maybe with the application itself."/>
+            <ITEXT CH="When network applications like SSH or web browsing are not working properly, tools like "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="ping"/>
+            <ITEXT CH=" and "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="traceroute"/>
+            <ITEXT CH=" are great to figure out whether there is a low-level networking problem, or the problem is maybe with the application itself."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Next time"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In a future episode, we will take a closer look at layers of networking support in the Linux kernel and some tools to look at them.  Until then, can you find out from where we can know, what is the address of our local Internet gateway?  Hint: have a look at the "/>
-            <ITEXT FONT="Monaco Regular" CH="netstat"/>
+            <ITEXT CH="In a future episode, we will take a closer look at layers of networking support in the Linux kernel and some tools to look at them.  "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Until then, can you find out where to look to find the address of your internet gateway? Hint: have a look at the "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="10" CH="netstat"/>
             <ITEXT CH=" command."/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
@@ -353,7 +390,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="317" YPOS="635.236220472443" WIDTH="349.935433070867" HEIGHT="123.763779527557" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 349.935 0 349.935 0 349.935 0 349.935 0 349.935 123.764 349.935 123.764 349.935 123.764 349.935 123.764 0 123.764 0 123.764 0 123.764 0 123.764 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 349.935 0 349.935 0 349.935 0 349.935 0 349.935 123.764 349.935 123.764 349.935 123.764 349.935 123.764 0 123.764 0 123.764 0 123.764 0 123.764 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="411" YPOS="516.18108794445" WIDTH="255.935424804688" HEIGHT="123.763778686523" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 123.764 255.935 123.764 255.935 123.764 255.935 123.764 0 123.764 0 123.764 0 123.764 0 123.764 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 123.764 255.935 123.764 255.935 123.764 255.935 123.764 0 123.764 0 123.764 0 123.764 0 123.764 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -394,165 +431,203 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="312" YPOS="635.267716535434" WIDTH="357.770078740158" HEIGHT="127" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 357.77 0 357.77 0 357.77 0 357.77 0 357.77 127 357.77 127 357.77 127 357.77 127 0 127 0 127 0 127 0 127 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 357.77 0 357.77 0 357.77 0 357.77 0 357.77 127 357.77 127 357.77 127 357.77 127 0 127 0 127 0 127 0 127 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" CH=" "/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  pi@raspberrypi ~ $ ping -c3 192.168.0.1"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from 192.168.0.1: icmp_req=1 ttl=64 time=0.854 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from 192.168.0.1: icmp_req=2 ttl=64 time=0.782 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from 192.168.0.1: icmp_req=3 ttl=64 time=0.778 ms"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  --- 192.168.0.1 ping statistics ---"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  3 packets transmitted, 3 received, 0% packet loss, time 2002ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  rtt min/avg/max/mdev = 0.778/0.804/0.854/0.047 ms"/>
-            <trail PARENT="Code"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="411" YPOS="516.212585449219" WIDTH="255.935424804688" HEIGHT="125.787414550781" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 125.787 255.935 125.787 255.935 125.787 255.935 125.787 0 125.787 0 125.787 0 125.787 0 125.787 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 125.787 255.935 125.787 255.935 125.787 255.935 125.787 0 125.787 0 125.787 0 125.787 0 125.787 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" pi@raspberrypi ~ $ ping -c3 192.168.0.1"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data."/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from 192.168.0.1: icmp_req=1 ttl=64 time=0.854 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from 192.168.0.1: icmp_req=2 ttl=64 time=0.782 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from 192.168.0.1: icmp_req=3 ttl=64 time=0.778 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" --- 192.168.0.1 ping statistics ---"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 3 packets transmitted 3 received 0% packet loss time 2002ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" rtt min/avg/max/mdev = 0.778/0.804/0.854/0.047 ms"/>
+            <trail PARENT="Code" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="1620.87401574803" WIDTH="355.652913385827" HEIGHT="69" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 355.653 0 355.653 0 355.653 0 355.653 0 355.653 69 355.653 69 355.653 69 355.653 69 0 69 0 69 0 69 0 69 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 355.653 0 355.653 0 355.653 0 355.653 0 355.653 69 355.653 69 355.653 69 355.653 69 0 69 0 69 0 69 0 69 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" CH=" pi@raspberrypi ~ $ ping -c 3 8.8.8.8"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data."/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" --- 8.8.8.8 ping statistics ---"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" 3 packets transmitted, 0 received, 100% packet loss, time 2000ms"/>
-            <trail PARENT="Code"/>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="411.04648488635" YPOS="961.409456508366" WIDTH="262.402893066406" HEIGHT="69" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 262.403 0 262.403 0 262.403 0 262.403 0 262.403 69 262.403 69 262.403 69 262.403 69 0 69 0 69 0 69 0 69 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 262.403 0 262.403 0 262.403 0 262.403 0 262.403 69 262.403 69 262.403 69 262.403 69 0 69 0 69 0 69 0 69 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" pi@raspberrypi ~ $ ping -c 3 8.8.8.8"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data."/>
+            <para PARENT="Code" LINESP="13"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" --- 8.8.8.8 ping statistics ---"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 3 packets transmitted 0 received 100% packet loss time 2000ms"/>
+            <trail PARENT="Code" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="280" YPOS="1211.9842519685" WIDTH="386.935433070867" HEIGHT="148" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 386.935 0 386.935 0 386.935 0 386.935 0 386.935 148 386.935 148 386.935 148 386.935 148 0 148 0 148 0 148 0 148 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 386.935 0 386.935 0 386.935 0 386.935 0 386.935 148 386.935 148 386.935 148 386.935 148 0 148 0 148 0 148 0 148 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" CH="  pi@raspberrypi ~ $ ping -c 5  localhost"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  PING localhost (127.0.0.1) 56(84) bytes of data."/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from localhost (127.0.0.1): icmp_req=1 ttl=64 time=0.153 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from localhost (127.0.0.1): icmp_req=2 ttl=64 time=0.155 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from localhost (127.0.0.1): icmp_req=3 ttl=64 time=0.163 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from localhost (127.0.0.1): icmp_req=4 ttl=64 time=0.146 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  64 bytes from localhost (127.0.0.1): icmp_req=5 ttl=64 time=0.201 ms"/>
-            <para PARENT="Code"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  --- localhost ping statistics ---"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  5 packets transmitted, 5 received, 0% packet loss, time 4005ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  rtt min/avg/max/mdev = 0.146/0.163/0.201/0.024 ms"/>
-            <trail PARENT="Code"/>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="411" YPOS="1324.98425292969" WIDTH="255.935424804688" HEIGHT="213.265747070312" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 213.266 255.935 213.266 255.935 213.266 255.935 213.266 0 213.266 0 213.266 0 213.266 0 213.266 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.935 0 255.935 0 255.935 0 255.935 0 255.935 213.266 255.935 213.266 255.935 213.266 255.935 213.266 0 213.266 0 213.266 0 213.266 0 213.266 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" pi@raspberrypi ~ $ ping -c 5 localhost"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" PING localhost (127.0.0.1) 56(84) bytes of data."/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from localhost (127.0.0.1): icmp_req=1 ttl=64 "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" time=0.153 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from localhost (127.0.0.1): icmp_req=2 ttl=64 "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" time=0.155 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from localhost (127.0.0.1): icmp_req=3 ttl=64 "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" time=0.163 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from localhost (127.0.0.1): icmp_req=4 ttl=64 "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" time=0.146 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 64 bytes from localhost (127.0.0.1): icmp_req=5 ttl=64 "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" time=0.201 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" --- localhost ping statistics ---"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 5 packets transmitted 5 received 0% packet loss time 4005ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" rtt min/avg/max/mdev = 0.146/0.163/0.201/0.024 ms"/>
+            <trail PARENT="Code" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614174" YPOS="2005.56692913386" WIDTH="538.588346456693" HEIGHT="215" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 215 538.588 215 538.588 215 538.588 215 0 215 0 215 0 215 0 215 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 215 538.588 215 538.588 215 538.588 215 0 215 0 215 0 215 0 215 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" CH=" pi@raspberrypi ~ $ traceroute 8.8.8.8"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  1  192.168.1.1 (192.168.1.1)  0.965 ms  0.906 ms  1.072 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  2  * * *"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  3  46.140.4.109 (46.140.4.109)  11.581 ms  17.977 ms  17.604 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  4  84.116.200.241 (84.116.200.241)  20.844 ms  20.765 ms  20.367 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  5  ch-zrh01b-ra1-ae-1.aorta.net (84.116.134.142)  15.715 ms  15.642 ms  15.240 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  6  74.125.49.101 (74.125.49.101)  20.088 ms  13.548 ms 72.14.212.210 (72.14.212.210)  13.250 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  7  66.249.94.52 (66.249.94.52)  18.371 ms 72.14.232.120 (72.14.232.120)  21.770 ms 66.249.94.52"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="     (66.249.94.52)  20.267 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  8  209.85.251.248 (209.85.251.248)  20.250 ms 209.85.251.180 (209.85.251.180)  20.315 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="     209.85.251.248 (209.85.251.248)  19.785 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  9  209.85.254.118 (209.85.254.118)  20.204 ms 209.85.254.112 (209.85.254.112)  31.628 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="     209.85.254.116 (209.85.254.116)  19.167 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" 10  * * *"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" 11  google-public-dns-a.google.com (8.8.8.8)  19.840 ms  19.633 ms  19.524 ms"/>
-            <trail PARENT="Code"/>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="2222.0630382628" WIDTH="257.952758789062" HEIGHT="312.505859375" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 312.506 257.953 312.506 257.953 312.506 257.953 312.506 0 312.506 0 312.506 0 312.506 0 312.506 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.953 0 257.953 0 257.953 0 257.953 0 257.953 312.506 257.953 312.506 257.953 312.506 257.953 312.506 0 312.506 0 312.506 0 312.506 0 312.506 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" pi@raspberrypi ~ $ traceroute 8.8.8.8"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" traceroute to 8.8.8.8 (8.8.8.8) 30 hops max 60 byte packets"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  1  192.168.1.1 (192.168.1.1)  0.965 ms  0.906 ms  1.072 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  2  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  3  46.140.4.109 (46.140.4.109)  11.581 ms  17.977 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     17.604 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  4  84.116.200.241 (84.116.200.241)  20.844 ms  20.765 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     20.367 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  5  ch-zrh01b-ra1-ae-1.aorta.net (84.116.134.142) 15.715 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     15.642 ms  15.240 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  6  74.125.49.101 (74.125.49.101)  20.088 ms  13.548 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     72.14.212.210 (72.14.212.210)  13.250 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  7  66.249.94.52 (66.249.94.52)  18.371 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     72.14.232.120 (72.14.232.120)  21.770 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     66.249.94.52 (66.249.94.52)  20.267 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  8  209.85.251.248 (209.85.251.248)  20.250 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     209.85.251.180 (209.85.251.180)  20.315 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     209.85.251.248 (209.85.251.248)  19.785 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="  9  209.85.254.118 (209.85.254.118)  20.204 ms "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     209.85.254.112 (209.85.254.112)  31.628 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     209.85.254.116 (209.85.254.116)  19.167 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 10  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH=" 11  google-public-dns-a.google.com (8.8.8.8)  19.840 ms  "/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="7" CH="     19.633 ms  19.524 ms"/>
+            <trail PARENT="Code" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="1840.18110236221" WIDTH="538.588346456693" HEIGHT="133.906456692913" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 133.906 538.588 133.906 538.588 133.906 538.588 133.906 0 133.906 0 133.906 0 133.906 0 133.906 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 133.906 538.588 133.906 538.588 133.906 538.588 133.906 0 133.906 0 133.906 0 133.906 0 133.906 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH=" pi@raspberrypi ~ $ traceroute 8.8.8.8"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" traceroute to 8.8.8.9 (8.8.8.8), 30 hops max, 60 byte packets"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  1  192.168.1.1 (192.168.1.1)  0.885 ms  0.800 ms  0.838 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  2  * * *"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  3  46.140.4.109 (46.140.4.109)  35.432 ms  35.328 ms  35.082 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  4  84.116.200.241 (84.116.200.241)  34.854 ms  34.642 ms  34.429 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  5  ch-zrh01b-ra1-ae-1.aorta.net (84.116.134.142)  33.977 ms  33.460 ms  33.244 ms"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  6  * * *"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  7  * * *"/>
-            <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="  8  * * *"/>
-            <para PARENT="Code"/>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.347086614173" YPOS="1873.98430195005" WIDTH="255.652908325195" HEIGHT="169.81884765625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 169.819 255.653 169.819 255.653 169.819 255.653 169.819 0 169.819 0 169.819 0 169.819 0 169.819 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 169.819 255.653 169.819 255.653 169.819 255.653 169.819 0 169.819 0 169.819 0 169.819 0 169.819 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="7" CH=" pi@raspberrypi ~ $ traceroute 8.8.8.8"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH=" traceroute to 8.8.8.9 (8.8.8.8) 30 hops max 60 byte packets"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  1  192.168.1.1 (192.168.1.1)  0.885 ms  0.800 ms  0.838 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  2  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  3  46.140.4.109 (46.140.4.109)  35.432 ms  35.328 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="     35.082 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  4  84.116.200.241 (84.116.200.241)  34.854 ms  34.642 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="     34.429 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  5  ch-zrh01b-ra1-ae-1.aorta.net (84.116.134.142) 33.977 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="     33.460 ms  33.244 ms"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  6  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  7  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
+            <ITEXT FONTSIZE="7" CH="  8  * * *"/>
+            <para PARENT="Code" LINESP="13"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="285" YPOS="1209.17322831653" WIDTH="381.935433070867" HEIGHT="150.76377955748" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.935 0 381.935 0 381.935 0 381.935 0 381.935 150.764 381.935 150.764 381.935 150.764 381.935 150.764 0 150.764 0 150.764 0 150.764 0 150.764 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.935 0 381.935 0 381.935 0 381.935 0 381.935 150.764 381.935 150.764 381.935 150.764 381.935 150.764 0 150.764 0 150.764 0 150.764 0 150.764 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.25" YPOS="1325.17321777344" WIDTH="256.685424804688" HEIGHT="213.076782226562" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 213.077 256.685 213.077 256.685 213.077 256.685 213.077 0 213.077 0 213.077 0 213.077 0 213.077 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.685 0 256.685 0 256.685 0 256.685 0 256.685 213.077 256.685 213.077 256.685 213.077 256.685 213.077 0 213.077 0 213.077 0 213.077 0 213.077 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.347086614173" YPOS="1617.81102363859" WIDTH="352.652913385827" HEIGHT="71.5275590385822" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 352.653 0 352.653 0 352.653 0 352.653 0 352.653 71.5276 352.653 71.5276 352.653 71.5276 352.653 71.5276 0 71.5276 0 71.5276 0 71.5276 0 71.5276 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 352.653 0 352.653 0 352.653 0 352.653 0 352.653 71.5276 352.653 71.5276 352.653 71.5276 352.653 71.5276 0 71.5276 0 71.5276 0 71.5276 0 71.5276 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="410.25" YPOS="956.81103515625" WIDTH="265.183624267578" HEIGHT="71.5275573730469" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 265.184 0 265.184 0 265.184 0 265.184 0 265.184 71.5276 265.184 71.5276 265.184 71.5276 265.184 71.5276 0 71.5276 0 71.5276 0 71.5276 0 71.5276 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 265.184 0 265.184 0 265.184 0 265.184 0 265.184 71.5276 265.184 71.5276 265.184 71.5276 265.184 71.5276 0 71.5276 0 71.5276 0 71.5276 0 71.5276 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347086614173" YPOS="1835.63779529213" WIDTH="538.588346456693" HEIGHT="135.196850377163" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 135.197 538.588 135.197 538.588 135.197 538.588 135.197 0 135.197 0 135.197 0 135.197 0 135.197 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 135.197 538.588 135.197 538.588 135.197 538.588 135.197 0 135.197 0 135.197 0 135.197 0 135.197 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347086614173" YPOS="1870.18899848517" WIDTH="256.402893066406" HEIGHT="172.862182617188" RADRECT="0" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 172.862 256.403 172.862 256.403 172.862 256.403 172.862 0 172.862 0 172.862 0 172.862 0 172.862 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 256.403 0 256.403 0 256.403 0 256.403 0 256.403 172.862 256.403 172.862 256.403 172.862 256.403 172.862 0 172.862 0 172.862 0 172.862 0 172.862 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347086570867" YPOS="2002.00787403229" WIDTH="538.5883465" HEIGHT="218.99212596771" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 218.992 538.588 218.992 538.588 218.992 538.588 218.992 0 218.992 0 218.992 0 218.992 0 218.992 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 218.992 538.588 218.992 538.588 218.992 538.588 218.992 0 218.992 0 218.992 0 218.992 0 218.992 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.347091674805" YPOS="2216.41796875" WIDTH="257.152893066406" HEIGHT="318.543212890625" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 318.543 257.153 318.543 257.153 318.543 257.153 318.543 0 318.543 0 318.543 0 318.543 0 318.543 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.153 0 257.153 0 257.153 0 257.153 0 257.153 318.543 257.153 318.543 257.153 318.543 257.153 318.543 0 318.543 0 318.543 0 318.543 0 318.543 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="222.834645669291" YPOS="127.834645669291" WIDTH="64" HEIGHT="42" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Yellow" TXTSTROKE="20% Gray" TXTFILLSH="60" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="22" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Courier 10 Pitch Bold" ISIZE="22" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 42 64 42 64 42 64 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 42 64 42 64 42 64 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="2" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="220" YPOS="127.834645669291" WIDTH="64" HEIGHT="42" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="Yellow" TXTSTROKE="20% Gray" TXTFILLSH="60" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="22" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="Courier 10 Pitch Bold" ISIZE="22" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 42 64 42 64 42 64 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 42 64 42 64 42 64 42 0 42 0 42 0 42 0 42 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="2" LAYER="1" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONT="Courier 10 Pitch Bold" FONTSIZE="22" FEATURES="inherit" FCOLOR="Yellow" FSHADE="60" SCOLOR="20% Gray" CH="Tool"/>
             <para ALIGN="2" LINESP="22"/>
             <ITEXT FONT="Courier 10 Pitch Bold" FONTSIZE="22" FEATURES="inherit" FCOLOR="Yellow" FSHADE="60" SCOLOR="20% Gray" CH="Shed"/>
             <trail ALIGN="2" LINESP="22"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="514" WIDTH="413.652913385827" HEIGHT="108" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 413.653 0 413.653 0 413.653 0 413.653 0 413.653 108 413.653 108 413.653 108 413.653 108 0 108 0 108 0 108 0 108 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 413.653 0 413.653 0 413.653 0 413.653 0 413.653 108 413.653 108 413.653 108 413.653 108 0 108 0 108 0 108 0 108 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONTSIZE="9" CH=" pi@raspberrypi ~ $ ifconfig"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347091674805" YPOS="519.669321615865" WIDTH="255.652908325195" HEIGHT="102.246032714844" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 102.246 255.653 102.246 255.653 102.246 255.653 102.246 0 102.246 0 102.246 0 102.246 0 102.246 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.653 0 255.653 0 255.653 0 255.653 0 255.653 102.246 255.653 102.246 255.653 102.246 255.653 102.246 0 102.246 0 102.246 0 102.246 0 102.246 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONTSIZE="7" CH=" pi@raspberrypi ~ $ ifconfig"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH=" eth0      Link encap:Ethernet  HWaddr b8:27:eb:f9:a3:3b  "/>
+            <ITEXT FONTSIZE="7" CH=" eth0  Link encap:Ethernet  HWaddr b8:27:eb:f9:a3:3b  "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           inet addr:192.168.0.18  Bcast:192.168.0.255  Mask:255.255.255.0"/>
+            <ITEXT FONTSIZE="7" CH="       inet addr:192.168.0.18  Bcast:192.168.0.255 "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1"/>
+            <ITEXT FONTSIZE="7" CH="       UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           RX packets:81 errors:0 dropped:0 overruns:0 frame:0"/>
+            <ITEXT FONTSIZE="7" CH="       RX packets:81 errors:0 dropped:0 overruns:0 frame:0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           TX packets:54 errors:0 dropped:0 overruns:0 carrier:0"/>
+            <ITEXT FONTSIZE="7" CH="       TX packets:54 errors:0 dropped:0 overruns:0 carrier:0"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           collisions:0 txqueuelen:1000 "/>
+            <ITEXT FONTSIZE="7" CH="       collisions:0 txqueuelen:1000 "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="9" CH="           RX bytes:10445 (10.2 KiB)  TX bytes:8598 (8.3 KiB)"/>
+            <ITEXT FONTSIZE="7" CH="       RX bytes:10445 (10.2 KiB)  TX bytes:8598 (8.3 KiB)"/>
             <trail PARENT="Code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.84708661126" YPOS="511.157480285037" WIDTH="404.15291338874" HEIGHT="108.842519714963" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 404.153 0 404.153 0 404.153 0 404.153 0 404.153 108.843 404.153 108.843 404.153 108.843 404.153 108.843 0 108.843 0 108.843 0 108.843 0 108.843 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 404.153 0 404.153 0 404.153 0 404.153 0 404.153 108.843 404.153 108.843 404.153 108.843 404.153 108.843 0 108.843 0 108.843 0 108.843 0 108.843 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.847091674805" YPOS="513.141742856484" WIDTH="255.902908325195" HEIGHT="113.923217773438" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Code" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="50" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 255.903 0 255.903 0 255.903 0 255.903 0 255.903 113.923 255.903 113.923 255.903 113.923 255.903 113.923 0 113.923 0 113.923 0 113.923 0 113.923 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 255.903 0 255.903 0 255.903 0 255.903 0 255.903 113.923 255.903 113.923 255.903 113.923 255.903 113.923 0 113.923 0 113.923 0 113.923 0 113.923 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="511.5" YPOS="776.851623535156" WIDTH="147.75" HEIGHT="15.8983469009399" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="http://tools.ietf.org/html/rfc792" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Black" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANNAME="Text55" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 147.75 0 147.75 0 147.75 0 147.75 0 147.75 15.8983 147.75 15.8983 147.75 15.8983 147.75 15.8983 0 15.8983 0 15.8983 0 15.8983 0 15.8983 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 147.75 0 147.75 0 147.75 0 147.75 0 147.75 15.8983 147.75 15.8983 147.75 15.8983 147.75 15.8983 0 15.8983 0 15.8983 0 15.8983 0 15.8983 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>

@@ -1,4 +1,4 @@
-# STRONGHOLD OF THE DWARVEN LORDS v2.1 
+# STRONGHOLD OF THE DWARVEN LORDS v2.2 
 # Martin Hodgson - November 2013 
 # Translated from Tim Hartnell's original BASIC version... 
 # ...with a couple of updates. Now you can't walk through walls! 
@@ -73,7 +73,7 @@ def show_map(): # GOSUB 480 'help' in original BASIC version
     # 610 CLS - Clear screen. Not possible in Python Shell? 
   
 def move(): # Lines 50 to 410 - Main game script from BASIC version 
-    global m, d, e 
+    global m, d, e
     m += 1
     print ("\n================================================================\n") 
     print ("STEP NUMBER", m) 
@@ -95,7 +95,8 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
         print("WEST: WALL") 
     print ("THE DWARVEN SOURCE BEAM READS:", (100 * abs(z-d) + 10 * abs(y-e))) 
     print ("Which direction do you want to move...") 
-    a_string = input ("N - north, S - south, E - east, W - west, H - help ? ") 
+    a_string = input ("N - north, S - south, E - east, W - west, H - help ? ")
+    a_string = a_string.upper() #Convert lower case to upper case
     if a_string == "H": 
         show_map() 
     elif a_string == "N": 
@@ -106,6 +107,8 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
         e += 1
     elif a_string == "W": 
         e -= 1
+    else:
+        print("\nPardon? I don't understand...") # Inform the player that the command isn't recogised
     if z == d and y == e: 
         win() 
     if a[d][e] == x: # In the original you could walk through walls... Now you can't!
@@ -118,17 +121,16 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
             e -= 1
         elif a_string == "W": 
             e += 1 
-    move() 
   
 def win(): 
     print ("\nYou found the Dwarven riches in just", m, "steps!\n") 
     show_map() 
     # This feature has been added - The original version would just END. 
     new_game() 
-    show_map() 
-    move() 
+    show_map()
   
 # MAIN PROGRAM 
 new_game() 
-show_map() 
-move()
+show_map()
+while(1):
+    move()

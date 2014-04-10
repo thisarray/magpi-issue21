@@ -96,7 +96,7 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
     print ("THE DWARVEN SOURCE BEAM READS:", (100 * abs(z-d) + 10 * abs(y-e))) 
     print ("Which direction do you want to move...") 
     a_string = input ("N - north, S - south, E - east, W - west, H - help ? ")
-    a_string = a_string.upper() #Convert lower case to upper case
+    a_string = a_string.upper() #Allow lowercase input too
     if a_string == "H": 
         show_map() 
     elif a_string == "N": 
@@ -108,7 +108,7 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
     elif a_string == "W": 
         e -= 1
     else:
-        print("\nPardon? I don't understand...") # Inform the player that the command isn't recogised
+        print("\nPardon? I don't understand...") # Inform the player if command is not recogised
     if z == d and y == e: 
         win() 
     if a[d][e] == x: # In the original you could walk through walls... Now you can't!

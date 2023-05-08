@@ -6,7 +6,7 @@ Translated from Tim Hartnell's original BASIC version...
 
 import random
 
-SPACE = 2
+OPEN = 2
 WALL = 1
 
 # VARIABLES, LISTS
@@ -27,6 +27,7 @@ world = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [
 goldY, goldX = 14, 14
 playerY, playerX = 2, 2
 stepCount = -15
+showGold = False
 
 # FUNCTIONS
 def new_game(): # GOSUB 640 in original BASIC version
@@ -46,37 +47,37 @@ def new_game(): # GOSUB 640 in original BASIC version
         for c in range(1, 16):
             world[b].append(WALL)
             if random.randint(1, 10) > 8:
-                world[b][c] = SPACE
+                world[b][c] = OPEN
             if (c < 2) or (c > 14) or (b < 2) or (b > 14):
                 world[b][c] = WALL
     playerY, playerX = 2, 2
     for f in range(0, 136, 2):
         b = data[f]
         c = data[f+1]
-        world[b][c] = SPACE
-    world[goldY][goldX] = SPACE # Makes sure the gold isn't in a wall
+        world[b][c] = OPEN
+    world[goldY][goldX] = OPEN # Makes sure the gold isn't in a wall
     stepCount = -15
 
 def show_map(): # GOSUB 480 'help' in original BASIC version
     global stepCount
     print("\n================================================================\n")
     print("North")
-    b = 15
-    while b > 0:
+    for b in range(15, 0, -1):
         strng = []
         for c in range(1, 16):
             if world[b][c] == WALL:
                 strng.append("#")
+            elif (b == goldY) and (c == goldX) and showGold:
+                strng.append("$")
             elif (b == playerY) and (c == playerX):
                 strng.append("*")
-            elif world[b][c] == SPACE:
+            elif world[b][c] == OPEN:
                 strng.append(" ")
         print(''.join(strng))
-        b -= 1
     print("South")
     stepCount += 15
-    world[playerY][playerX] = SPACE
-    # Here I've omitted two lines from the BASIC version::
+    world[playerY][playerX] = OPEN
+    # Here I've omitted two lines from the BASIC version:
     # 600 FOR J = 1 TO 2000:NEXT J - Makes the prgram pause.
     # 610 CLS - Clear screen. Not possible in Python Shell?
 
@@ -85,36 +86,38 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
     stepCount += 1
     print("\n================================================================\n")
     print("STEP NUMBER", stepCount)
-    if world[playerY+1][playerX] == SPACE:
+    if world[playerY+1][playerX] == OPEN:
         print("NORTH: OPEN")
     elif world[playerY+1][playerX] == WALL:
         print("NORTH: WALL")
-    if world[playerY-1][playerX] == SPACE:
+    if world[playerY-1][playerX] == OPEN:
         print("SOUTH: OPEN")
     elif world[playerY-1][playerX] == WALL:
         print("SOUTH: WALL")
-    if world[playerY][playerX+1] == SPACE:
+    if world[playerY][playerX+1] == OPEN:
         print("EAST: OPEN")
     elif world[playerY][playerX+1] == WALL:
         print("EAST: WALL")
-    if world[playerY][playerX-1] == SPACE:
+    if world[playerY][playerX-1] == OPEN:
         print("WEST: OPEN")
     elif world[playerY][playerX-1] == WALL:
         print("WEST: WALL")
     # Dwarven source beam is Manhattan distance from player to gold
     print("THE DWARVEN SOURCE BEAM READS:", (100 * abs(goldY - playerY)) + (10 * abs(goldX - playerX)))
     print("Which direction do you want to move...")
-    a_string = input("N - north, S - south, E - east, W - west, H - help ? ")
+    a_string = input("N - north, S - south, E - east, W - west, H - help, Q - quit ? ")
     a_string = a_string.upper() #Allow lowercase input too
-    if a_string == "H":
+    if a_string.startswith("H"):
         show_map()
-    elif a_string == "N":
+    elif a_string.startswith("Q"):
+        return True
+    elif a_string.startswith(("N", "U")):
         playerY += 1
-    elif a_string == "S":
+    elif a_string.startswith(("S", "D")):
         playerY -= 1
-    elif a_string == "E":
+    elif a_string.startswith(("E", "R")):
         playerX += 1
-    elif a_string == "W":
+    elif a_string.startswith(("W", "L")):
         playerX -= 1
     else:
         print("\nPardon? I don't understand...") # Inform the player if command is not recogised
@@ -122,14 +125,15 @@ def move(): # Lines 50 to 410 - Main game script from BASIC version
         win()
     if world[playerY][playerX] == WALL: # In the original you could walk through walls... Now you can't!
         print("\nOuch! You just walked into a wall...")
-        if a_string == "N":
+        if a_string.startswith(("N", "U")):
             playerY -= 1
-        elif a_string == "S":
+        elif a_string.startswith(("S", "D")):
             playerY += 1
-        elif a_string == "E":
+        elif a_string.startswith(("E", "R")):
             playerX -= 1
-        elif a_string == "W":
+        elif a_string.startswith(("W", "L")):
             playerX += 1
+    return False
 
 def win():
     print("\nYou found the Dwarven riches in just", stepCount, "steps!\n")
@@ -139,7 +143,17 @@ def win():
     show_map()
 
 # MAIN PROGRAM
-new_game()
-show_map()
-while 1:
-    move()
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('-g', '--gold', action='store_true',
+                        help='show the gold on the map')
+    args = parser.parse_args()
+
+    showGold = args.gold
+
+    new_game()
+    show_map()
+    while True:
+        if move():
+            break

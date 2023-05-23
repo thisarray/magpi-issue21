@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STRONGHOLD OF THE DWARVEN LORDS</title>
+  <script src="../jsgame0.js"></script>
+  <style type="text/css" media="screen">
+body {
+  background-color: white;
+  color: black;
+}
+.hidden {
+  display: none;
+}
+#original {
+  margin-left: 1em;
+}
+  </style>
+</head>
+
+<body>
+<section id="imageLoader" class="hidden">
+  <img class="hidden" src="images/gold.png" alt="gold" data-name="gold">
+  <img class="hidden" src="images/open.png" alt="open" data-name="open">
+  <img class="hidden" src="images/player1.png" alt="player1" data-name="player1">
+  <img class="hidden" src="images/player2.png" alt="player2" data-name="player2">
+  <img class="hidden" src="images/player3.png" alt="player3" data-name="player3">
+  <img class="hidden" src="images/player4.png" alt="player4" data-name="player4">
+  <img class="hidden" src="images/wall.png" alt="wall" data-name="wall">
+</section>
+
+<main>
+<h1>STRONGHOLD OF THE DWARVEN LORDS</h1>
+
+<canvas id="screen">
+The game screen appears here if your browser supports the Canvas API.
+</canvas>
+<section id="controls">
+  <button type="button" id="reset">Reset</button>
+  <button type="button" id="pause">Pause</button>
+</section>
+
+<p>Use the arrow keys or WASD to move the player.
+<br>Press "H" to toggle showing the location of the gold making an already easy game ridiculously easy.
+<br>Press "P" to rotate through the different player avatars.</p>
+
+<h2>Attribution</h2>
+
+<p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/legalcode">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported</a>.</p>
+
+<h2>Original Python code</h2>
+
+<pre id="original"><code>
+&quot;&quot;&quot;STRONGHOLD OF THE DWARVEN LORDS v2.2
+Martin Hodgson - November 2013
+Translated from Tim Hartnell&#x27;s original BASIC version...
+...with a couple of updates. Now you can&#x27;t walk through walls!
+&quot;&quot;&quot;
+
+import random
+
+OPEN = 2
+WALL = 1
+
+# VARIABLES, LISTS
+data = [2,2,2,3,2,4,2,5,2,6,2,7,
+        3,7,4,7,5,7,5,6,5,5,5,4,5,3,6,3,
+        7,3,7,4,7,5,7,6,7,7,7,8,7,9,9,8,
+        9,9,10,8,10,7,10,6,10,5,10,4,8,8,
+        10,3,11,3,12,3,13,3,14,3,14,2,7,10,
+        6,10,5,10,4,10,3,10,2,10,2,11,2,12,
+        2,13,2,14,6,11,6,12,6,13,6,14,7,12,
+        14,12,8,12,8,14,9,12,9,13,9,14,10,12,
+        11,9,11,10,11,11,11,12,12,9,13,9,13,10,
+        13,11,13,12,13,13,13,14,14,14]
+# world is in reverse row major
+# That is, consecutive elements of the row are stored together
+# But each row is south of (below) the row after it
+world = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0]]
+goldY, goldX = 14, 14
+playerY, playerX = 2, 2
+stepCount = -15
+showGold = False
+
+# FUNCTIONS
+def new_game(): # GOSUB 640 in original BASIC version
+    global world, goldY, goldX, playerY, playerX, stepCount
+    print(&quot;================================================================\n&quot;)
+    input(&quot;STRONGHOLD OF THE DWARVEN LORDS\nNew Game - Press Enter...&quot;)
+    # Item zero and the zero at the beginning of each sub-list will be ignored...
+    # ... as the BASIC program uses indices 1-15
+    world = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0]]
+    b = random.randint(1, 3)
+    goldY, goldX = 14, 14
+    if b == 2:
+        goldX = 2
+    if b == 3:
+        goldY = 2
+    for b in range(1, 16):
+        for c in range(1, 16):
+            world[b].append(WALL)
+            if random.randint(1, 10) &gt; 8:
+                world[b][c] = OPEN
+            if (c &lt; 2) or (c &gt; 14) or (b &lt; 2) or (b &gt; 14):
+                world[b][c] = WALL
+    playerY, playerX = 2, 2
+    for f in range(0, 136, 2):
+        b = data[f]
+        c = data[f+1]
+        world[b][c] = OPEN
+    world[goldY][goldX] = OPEN # Makes sure the gold isn&#x27;t in a wall
+    stepCount = -15
+
+def show_map(): # GOSUB 480 &#x27;help&#x27; in original BASIC version
+    global stepCount
+    print(&quot;\n================================================================\n&quot;)
+    print(&quot;North&quot;)
+    for b in range(15, 0, -1):
+        strng = []
+        for c in range(1, 16):
+            if world[b][c] == WALL:
+                strng.append(&quot;#&quot;)
+            elif (b == goldY) and (c == goldX) and showGold:
+                strng.append(&quot;$&quot;)
+            elif (b == playerY) and (c == playerX):
+                strng.append(&quot;*&quot;)
+            elif world[b][c] == OPEN:
+                strng.append(&quot; &quot;)
+        print(&#x27;&#x27;.join(strng))
+    print(&quot;South&quot;)
+    stepCount += 15
+    world[playerY][playerX] = OPEN
+    # Here I&#x27;ve omitted two lines from the BASIC version:
+    # 600 FOR J = 1 TO 2000:NEXT J - Makes the prgram pause.
+    # 610 CLS - Clear screen. Not possible in Python Shell?
+
+def move(): # Lines 50 to 410 - Main game script from BASIC version
+    global playerY, playerX, stepCount
+    stepCount += 1
+    print(&quot;\n================================================================\n&quot;)
+    print(&quot;STEP NUMBER&quot;, stepCount)
+    if world[playerY+1][playerX] == OPEN:
+        print(&quot;NORTH: OPEN&quot;)
+    elif world[playerY+1][playerX] == WALL:
+        print(&quot;NORTH: WALL&quot;)
+    if world[playerY-1][playerX] == OPEN:
+        print(&quot;SOUTH: OPEN&quot;)
+    elif world[playerY-1][playerX] == WALL:
+        print(&quot;SOUTH: WALL&quot;)
+    if world[playerY][playerX+1] == OPEN:
+        print(&quot;EAST: OPEN&quot;)
+    elif world[playerY][playerX+1] == WALL:
+        print(&quot;EAST: WALL&quot;)
+    if world[playerY][playerX-1] == OPEN:
+        print(&quot;WEST: OPEN&quot;)
+    elif world[playerY][playerX-1] == WALL:
+        print(&quot;WEST: WALL&quot;)
+    # Dwarven source beam is Manhattan distance from player to gold
+    print(&quot;THE DWARVEN SOURCE BEAM READS:&quot;, (100 * abs(goldY - playerY)) + (10 * abs(goldX - playerX)))
+    print(&quot;Which direction do you want to move...&quot;)
+    a_string = input(&quot;N - north, S - south, E - east, W - west, H - help, Q - quit ? &quot;)
+    a_string = a_string.upper() #Allow lowercase input too
+    if a_string.startswith(&quot;H&quot;):
+        show_map()
+    elif a_string.startswith(&quot;Q&quot;):
+        return True
+    elif a_string.startswith((&quot;N&quot;, &quot;U&quot;)):
+        playerY += 1
+    elif a_string.startswith((&quot;S&quot;, &quot;D&quot;)):
+        playerY -= 1
+    elif a_string.startswith((&quot;E&quot;, &quot;R&quot;)):
+        playerX += 1
+    elif a_string.startswith((&quot;W&quot;, &quot;L&quot;)):
+        playerX -= 1
+    else:
+        print(&quot;\nPardon? I don&#x27;t understand...&quot;) # Inform the player if command is not recogised
+    if (goldY == playerY) and (goldX == playerX):
+        win()
+    if world[playerY][playerX] == WALL: # In the original you could walk through walls... Now you can&#x27;t!
+        print(&quot;\nOuch! You just walked into a wall...&quot;)
+        if a_string.startswith((&quot;N&quot;, &quot;U&quot;)):
+            playerY -= 1
+        elif a_string.startswith((&quot;S&quot;, &quot;D&quot;)):
+            playerY += 1
+        elif a_string.startswith((&quot;E&quot;, &quot;R&quot;)):
+            playerX -= 1
+        elif a_string.startswith((&quot;W&quot;, &quot;L&quot;)):
+            playerX += 1
+    return False
+
+def win():
+    print(&quot;\nYou found the Dwarven riches in just&quot;, stepCount, &quot;steps!\n&quot;)
+    show_map()
+    # This feature has been added - The original version would just END.
+    new_game()
+    show_map()
+
+# MAIN PROGRAM
+if __name__ == &#x27;__main__&#x27;:
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(&#x27;-g&#x27;, &#x27;--gold&#x27;, action=&#x27;store_true&#x27;,
+                        help=&#x27;show the gold on the map&#x27;)
+    args = parser.parse_args()
+
+    showGold = args.gold
+
+    new_game()
+    show_map()
+    while True:
+        if move():
+            break
+</code></pre>
+</main>
+
+<script>
+/*
+ * STRONGHOLD OF THE DWARVEN LORDS v2.2
+ * Martin Hodgson - November 2013
+ * Translated from Tim Hartnell's original BASIC version...
+ * ...with a couple of updates. Now you can't walk through walls!
+ */
+
+/*
+ * Array of string names of the available avatars for the player.
+ */
+const AVATARS = [
+  'player1',
+  'player2',
+  'player3',
+  'player4'
+];
+
+/*
+ * Integer width and height in pixels of each tile.
+ */
+const TILE_SIZE = 32;
+
+WIDTH = 15 * TILE_SIZE;
+HEIGHT = 17 * TILE_SIZE;
+
+/*
+ * Integer constant for an open tile in the world.
+ */
+const OPEN = 2;
+
+/*
+ * Integer constant for a wall tile in the world.
+ */
+const WALL = 1;
+
+// VARIABLES, LISTS
+const DATA = [2,2,2,3,2,4,2,5,2,6,2,7,
+              3,7,4,7,5,7,5,6,5,5,5,4,5,3,6,3,
+              7,3,7,4,7,5,7,6,7,7,7,8,7,9,9,8,
+              9,9,10,8,10,7,10,6,10,5,10,4,8,8,
+              10,3,11,3,12,3,13,3,14,3,14,2,7,10,
+              6,10,5,10,4,10,3,10,2,10,2,11,2,12,
+              2,13,2,14,6,11,6,12,6,13,6,14,7,12,
+              14,12,8,12,8,14,9,12,9,13,9,14,10,12,
+              11,9,11,10,11,11,11,12,12,9,13,9,13,10,
+              13,11,13,12,13,13,13,14,14,14];
+
+let world, goldY, goldX, playerY, playerX, stepCount, showGold, won, playerIndex;
+
+// FUNCTIONS
+/*
+ * Return a random integer N such that min <= N < max.
+ */
+function getRandomInteger(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor((Math.random() * (max - min)) + min);
+}
+
+function reset() { // GOSUB 640 in original BASIC version
+  // Item zero and the zero at the beginning of each sub-list will be ignored...
+  // ... as the BASIC program uses indices 1-15
+  world = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0]];
+  goldY = 14;
+  goldX = 14;
+  let a = getRandomInteger(1, 4);
+  if (a === 2) {
+    goldX = 2;
+  }
+  if (a === 3) {
+    goldY = 2;
+  }
+  for (let b = 1; b < 16; b++) {
+    for (let c = 1; c < 16; c++) {
+      world[b].push(WALL);
+      if (getRandomInteger(1, 11) > 8) {
+        world[b][c] = OPEN;
+      }
+      if ((c < 2) || (c > 14) || (b < 2) || (b > 14)) {
+        world[b][c] = WALL;
+      }
+    }
+  }
+  playerY = 2;
+  playerX = 2;
+  for (let f = 0; f < 136; f += 2) {
+    let b = DATA[f],
+        c = DATA[f+1];
+    world[b][c] = OPEN;
+  }
+  world[goldY][goldX] = OPEN; // Makes sure the gold isn't in a wall
+  stepCount = 0;
+
+  showGold = false;
+  won = false;
+  playerIndex = 0;
+}
+
+function draw() { // GOSUB 480 'help' in original BASIC version
+  screen.fill('black');
+  for (let b = 15; b > 0; b--) {
+    for (let c = 1; c < 16; c++) {
+      let screenCoordinates = [(c - 1) * TILE_SIZE, (15 - b) * TILE_SIZE];
+      if (world[b][c] === WALL) {
+        screen.blit('wall', screenCoordinates);
+      }
+      else {
+        screen.blit('open', screenCoordinates);
+      }
+      if ((b === goldY) && (c === goldX) && showGold) {
+        screen.blit('gold', screenCoordinates);
+      }
+      else if ((b === playerY) && (c === playerX)) {
+        screen.blit(AVATARS[playerIndex], screenCoordinates);
+      }
+    }
+  }
+
+  screen.draw.text("STEP NUMBER " + stepCount, {
+    topleft: [0, 15 * TILE_SIZE],
+    color: 'white',
+    fontsize: 20
+  });
+  // Dwarven source beam is Manhattan distance from player to gold
+  screen.draw.text("THE DWARVEN SOURCE BEAM READS: " + ((100 * Math.abs(goldY - playerY)) + (10 * Math.abs(goldX - playerX))), {
+    topleft: [0, 16 * TILE_SIZE],
+    color: 'white',
+    fontsize: 20
+  });
+  if (won) {
+    screen.draw.text(`You found the Dwarven riches in just ${ stepCount } steps!`, {
+      center: [Math.floor(WIDTH / 2), Math.floor(HEIGHT / 2)],
+      color: 'white',
+      fontsize: 18
+    });
+  }
+}
+
+function on_key_down(key) { // Lines 50 to 410 - Main game script from BASIC version
+  if (won) {
+    return;
+  }
+
+  if (key === keys.H) {
+    // Toggle showing the gold
+    showGold = !showGold;
+  }
+  else if (key === keys.P) {
+    playerIndex = (playerIndex + 1) % AVATARS.length;
+  }
+  else if ((key === keys.UP) || (key === keys.W)) {
+    playerY += 1;
+    stepCount++;
+  }
+  else if ((key === keys.DOWN) || (key === keys.S)) {
+    playerY -= 1;
+    stepCount++;
+  }
+  else if ((key === keys.RIGHT) || (key === keys.D)) {
+    playerX += 1;
+    stepCount++;
+  }
+  else if ((key === keys.LEFT) || (key === keys.A)) {
+    playerX -= 1;
+    stepCount++;
+  }
+  if (world[playerY][playerX] === WALL) { // In the original you could walk through walls... Now you can't!
+    if ((key === keys.UP) || (key === keys.W)) {
+      playerY -= 1;
+    }
+    else if ((key === keys.DOWN) || (key === keys.S)) {
+      playerY += 1;
+    }
+    else if ((key === keys.RIGHT) || (key === keys.D)) {
+      playerX -= 1;
+    }
+    else if ((key === keys.LEFT) || (key === keys.A)) {
+      playerX += 1;
+    }
+  }
+
+  if ((goldY === playerY) && (goldX === playerX)) {
+    won = true;
+  }
+}
+
+window.addEventListener('load', (event) => {
+  screen.init();
+});
+</script>
+</body>
+
+</html>
